@@ -168,6 +168,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1408,209 +1612,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:AP22652W6-7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 22.86 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AP22652W6-7"
-				(at 22.86 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOIC_52W6-7_DIO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "AP22652W6-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "AP22652W6-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC_52W6-7_DIO SOIC_52W6-7_DIO-M SOIC_52W6-7_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP22652W6-7_0_1"
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "EN/EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 0 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -5.08 180)
-					(length 7.62)
-					(name "FAULT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AP22652W6-7_1_1"
-				(rectangle
-					(start 7.62 5.08)
-					(end 38.1 -10.16)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Motor:Fan_4pin"
 			(pin_names
 				(offset 0)
@@ -1953,37 +1954,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-C3-WROOM-02"
+		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.192 21.336 0)
+				(at -12.7 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ESP32-C3-WROOM-02"
-				(at 12.192 21.336 0)
+			(property "Value" "ESP32-S3-WROOM-1"
+				(at 12.7 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
-				(at 0 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
-				(at 0 0.635 0)
+			(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1991,16 +1983,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
-				(at 0 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "esp32 espressif WiFi Bluetooth LE"
+			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2009,7 +1992,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "ESP32?C3*WROOM?02*"
+			(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2018,10 +2001,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-C3-WROOM-02_1_1"
+			(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ESP32?S3?WROOM?1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESP32-S3-WROOM-1_0_0"
 				(rectangle
-					(start -12.7 20.32)
-					(end 12.7 -20.32)
+					(start -12.7 25.4)
+					(end 12.7 -25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2030,8 +2031,32 @@
 						(type background)
 					)
 				)
+				(text "PSRAM"
+					(at 5.08 2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-S3-WROOM-1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 6.35 -1.27) (xy 6.35 6.35) (xy 7.62 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESP32-S3-WROOM-1_1_1"
 				(pin input line
-					(at -15.24 17.78 0)
+					(at -15.24 22.86 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -2040,7 +2065,43 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "IO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2051,14 +2112,14 @@
 				(pin bidirectional line
 					(at -15.24 12.7 0)
 					(length 2.54)
-					(name "IO0"
+					(name "IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2068,42 +2129,6 @@
 				)
 				(pin bidirectional line
 					(at -15.24 10.16 0)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 7.62 0)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
 					(length 2.54)
 					(name "IO3"
 						(effects
@@ -2121,27 +2146,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 2.54 0)
+					(at -15.24 7.62 0)
 					(length 2.54)
 					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "IO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,9 +2164,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -2.54 0)
+					(at -15.24 5.08 0)
 					(length 2.54)
-					(name "IO6"
+					(name "IO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2175,9 +2182,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -5.08 0)
+					(at -15.24 2.54 0)
 					(length 2.54)
-					(name "IO7"
+					(name "IO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2193,9 +2200,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -7.62 0)
+					(at -15.24 0 0)
 					(length 2.54)
-					(name "IO8"
+					(name "IO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2211,9 +2218,135 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -10.16 0)
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "IO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
 					(length 2.54)
 					(name "IO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "IO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "IO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "IO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "IO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "IO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "IO15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2229,52 +2362,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -12.7 0)
+					(at -15.24 -22.86 0)
 					(length 2.54)
-					(name "IO10"
+					(name "IO16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -15.24 0)
-					(length 2.54)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -17.78 0)
-					(length 2.54)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2283,9 +2380,27 @@
 					)
 				)
 				(pin power_in line
-					(at 0 22.86 270)
+					(at 0 27.94 270)
 					(length 2.54)
 					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2301,7 +2416,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
+					(at 0 -27.94 90)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -2311,7 +2426,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,9 +2434,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -22.86 90)
+				(pin passive line
+					(at 0 -27.94 90)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2329,7 +2445,43 @@
 							)
 						)
 					)
-					(number "9"
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 22.86 180)
+					(length 2.54)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "RXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2340,7 +2492,25 @@
 				(pin bidirectional line
 					(at 15.24 17.78 180)
 					(length 2.54)
-					(name "IO20/RXD"
+					(name "IO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "IO18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2356,16 +2526,270 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 15.24 180)
+					(at 15.24 12.7 180)
 					(length 2.54)
-					(name "IO21/TXD"
+					(name "USB_D-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "IO19" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "IO20" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "IO35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "IO36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "IO37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "IO38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "IO39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "IO40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "IO41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "IO42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "IO45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "IO46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -20.32 180)
+					(length 2.54)
+					(name "IO47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -22.86 180)
+					(length 2.54)
+					(name "IO48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2539,268 +2963,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Sensor_Energy:INA226"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INA226"
-				(at 3.81 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-				(at 20.32 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ADC I2C 16-Bit Oversampling Current Shunt"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VSSOP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INA226_0_1"
-				(rectangle
-					(start 7.62 10.16)
-					(end -7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "INA226_1_1"
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "Vbus"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "Vin+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "Vin-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "~{Alert}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4332,7 +4494,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 195.58 194.31 0)
+		(at 218.44 195.58 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4340,8 +4502,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02099ca3-18ee-4346-be00-42f56ab388b4")
-		(property "Reference" "J12_FromR1"
-			(at 188.722 191.77 0)
+		(property "Reference" "J_FromR1"
+			(at 211.582 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4511,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 186.944 194.31 0)
+			(at 209.804 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 194.31 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 194.31 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4537,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 194.31 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,173 +4554,7 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J12_FromR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:AP22652W6-7")
-		(at 109.22 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0797257d-ae27-41e0-b519-7aa05da5a04c")
-		(property "Reference" "U3"
-			(at 110.744 136.398 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AP22652W6-7"
-			(at 110.744 138.938 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOIC_52W6-7_DIO"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP22652W6-7"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b42bad29-23f9-4040-b0ad-558675fcfd98")
-		)
-		(pin "6"
-			(uuid "7103c0dd-0551-43d1-8ab0-f032b1fad4b7")
-		)
-		(pin "2"
-			(uuid "74a73e54-44fa-4132-b259-28f8f84d3385")
-		)
-		(pin "1"
-			(uuid "3e36f096-5c25-471b-8b00-470be14291b5")
-		)
-		(pin "5"
-			(uuid "34f98bf5-eeda-4ef5-ad4b-9dec78da4ea6")
-		)
-		(pin "4"
-			(uuid "3cf39478-e3fb-41bb-a309-0eb3d432202a")
-		)
-		(instances
-			(project ""
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:AP22652W6-7")
-		(at 247.65 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0805aecd-ba47-44b6-b1cc-e7b36fd4a603")
-		(property "Reference" "U14"
-			(at 253.746 50.292 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AP22652W6-7"
-			(at 253.746 52.832 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SOIC_52W6-7_DIO"
-			(at 247.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP22652W6-7"
-			(at 247.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1c5584d1-1134-4902-82d2-79b17e12a6d4")
-		)
-		(pin "6"
-			(uuid "864b1b66-80fa-4407-b204-e72853478d6a")
-		)
-		(pin "2"
-			(uuid "36cf8684-1885-4b2c-8b2e-be8513765f25")
-		)
-		(pin "1"
-			(uuid "b0ecb043-87e2-4ade-9a98-17971e26dc75")
-		)
-		(pin "5"
-			(uuid "767ae4bf-e865-45e6-844e-d31b35efe09e")
-		)
-		(pin "4"
-			(uuid "545163c4-721a-4da7-97ed-175be31f878e")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U14")
+					(reference "J_FromR1")
 					(unit 1)
 				)
 			)
@@ -4639,7 +4635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b81c3e2-b03f-4875-b5df-683b01780e6d")
-		(property "Reference" "J10_ToR1"
+		(property "Reference" "J_ToR1"
 			(at 116.84 212.0899 0)
 			(effects
 				(font
@@ -4693,7 +4689,7 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J10_ToR1")
+					(reference "J_ToR1")
 					(unit 1)
 				)
 			)
@@ -4709,7 +4705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21f57203-d0b5-4536-9f1a-203a5303a53d")
-		(property "Reference" "J9_Main"
+		(property "Reference" "J1_MainPW"
 			(at 44.45 215.9 0)
 			(effects
 				(font
@@ -4806,100 +4802,7 @@
 		(instances
 			(project ""
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J9_Main")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 160.02 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28e52304-aef0-4014-8ae3-9a34ad57dc5b")
-		(property "Reference" "U11"
-			(at 157.8767 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 157.8767 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 139.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 151.13 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "256254f7-e0ad-42ba-a670-44f57c5ae0b0")
-		)
-		(pin "10"
-			(uuid "c7e11a52-542f-4234-938a-f409b438492e")
-		)
-		(pin "9"
-			(uuid "d4495323-5163-451d-b775-0031acf91515")
-		)
-		(pin "7"
-			(uuid "f35534d8-4cfb-4745-b381-f32758980ab7")
-		)
-		(pin "1"
-			(uuid "6923f50d-aeb6-43ce-b941-2d12d0a1e2cf")
-		)
-		(pin "8"
-			(uuid "7b238e1f-0d7b-475c-8094-813ab1102af9")
-		)
-		(pin "2"
-			(uuid "fa656fdf-0761-465d-9f52-b0b05a92d77f")
-		)
-		(pin "4"
-			(uuid "8f7133f6-0e50-4771-95bb-bb318108a00b")
-		)
-		(pin "6"
-			(uuid "2a485aaf-a028-4330-a466-8010fada247f")
-		)
-		(pin "3"
-			(uuid "ee2baefe-59e4-47ba-9d52-6a13c6ed1cda")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U11")
+					(reference "J1_MainPW")
 					(unit 1)
 				)
 			)
@@ -4972,89 +4875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:AP22652W6-7")
-		(at 233.68 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b8623c5-a7a0-4171-9641-70ad378dc862")
-		(property "Reference" "U4"
-			(at 235.458 136.398 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AP22652W6-7"
-			(at 235.458 138.938 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOIC_52W6-7_DIO"
-			(at 233.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP22652W6-7"
-			(at 233.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5f7a001c-02fa-4002-a4fb-888e6fa7f067")
-		)
-		(pin "6"
-			(uuid "07d39f92-abd3-475a-b352-12d64ccec4cb")
-		)
-		(pin "2"
-			(uuid "27ed783b-f159-41be-a719-8de8d454ad55")
-		)
-		(pin "1"
-			(uuid "0dc8eda0-f659-4fc0-8809-9d248c97fe21")
-		)
-		(pin "5"
-			(uuid "d4935fd4-5ad6-424b-a40d-e3bb845fb180")
-		)
-		(pin "4"
-			(uuid "8a90dada-3b98-479f-80d8-3b3653e29901")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 40.64 264.16 0)
 		(unit 1)
@@ -5121,43 +4941,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 87.63 160.02 90)
+		(lib_id "RF_Module:ESP32-S3-WROOM-1")
+		(at 280.67 209.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "56f43d24-b246-4f4e-b52b-80c048b7894b")
-		(property "Reference" "J8"
-			(at 105.664 174.244 90)
+		(fields_autoplaced yes)
+		(uuid "54d68379-8cf3-4b78-be6b-d0a8979b6dea")
+		(property "Reference" "U1"
+			(at 318.77 204.1046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 105.664 171.704 90)
+		(property "Value" "ESP32-S3-WROOM-1"
+			(at 318.77 206.6446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 87.63 156.21 0)
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+			(at 278.13 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,8 +4975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 87.63 160.02 0)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(at 280.67 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,247 +4984,142 @@
 				(hide yes)
 			)
 		)
-		(pin "A5"
-			(uuid "01f293e3-f4e5-4e7b-b97e-ac2c53e03c88")
-		)
-		(pin "A8"
-			(uuid "ed67e5a5-1886-4771-8e9a-8788246b2c44")
-		)
-		(pin "B7"
-			(uuid "abc455be-ea99-4957-8d78-1055d4624aa5")
-		)
-		(pin "S1"
-			(uuid "b6166921-6dee-4574-a0de-93af10b45d05")
-		)
-		(pin "B4"
-			(uuid "ac38102d-9a6a-4fd0-8280-b02973de35ba")
-		)
-		(pin "B9"
-			(uuid "37325491-23b2-4716-93e7-ce945ea32a0d")
-		)
-		(pin "B5"
-			(uuid "e8a8056e-6b91-4f95-a11c-29a581a3c5c0")
-		)
-		(pin "B1"
-			(uuid "8904a881-7ebb-4418-892d-7776dd14e13d")
-		)
-		(pin "A6"
-			(uuid "27526d67-3f78-4ea6-ba38-7f2e7ab2abb8")
-		)
-		(pin "B12"
-			(uuid "567ab9af-f056-4c14-aa55-5b72ab373752")
-		)
-		(pin "A1"
-			(uuid "3367aa0b-321d-4e47-86d9-02f4316dd273")
-		)
-		(pin "A9"
-			(uuid "d0847ec0-46ed-4533-b2f1-321d3a8f89f4")
-		)
-		(pin "A7"
-			(uuid "448e0940-64cf-45ee-ac61-4e47254983d6")
-		)
-		(pin "A12"
-			(uuid "28e35673-0c07-43a7-ac08-109af91c6c6e")
-		)
-		(pin "A4"
-			(uuid "c6682d7a-ea46-4292-b4e4-b323e5d15066")
-		)
-		(pin "B6"
-			(uuid "2c92d667-1ebb-4a19-af98-a0e2875ea68e")
-		)
-		(pin "B8"
-			(uuid "111ac117-a384-4ad8-ba69-ac91e4dfd845")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 97.79 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68947554-5c13-4f4c-b2b7-fe1b436b6771")
-		(property "Reference" "U12"
-			(at 95.6467 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 95.6467 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 77.47 50.8 0)
+		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 280.67 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 88.9 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 97.79 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "583c1fdc-0ed2-4f14-8722-93b192793a45")
 		)
 		(pin "10"
-			(uuid "16823232-7a3e-4a8b-86b2-39c7f644da4c")
-		)
-		(pin "9"
-			(uuid "0b7ff1e7-b889-4145-8235-b135e24075fa")
-		)
-		(pin "7"
-			(uuid "18e76028-eea0-43ba-b5d5-4dd56fb73111")
+			(uuid "3e7ba262-7a70-4eae-9181-7e24f109dc2b")
 		)
 		(pin "1"
-			(uuid "0ffa4028-b666-469e-834c-d4107ba3d5d2")
+			(uuid "f85a2f6d-2527-48df-a123-028043bc3aba")
 		)
-		(pin "8"
-			(uuid "eaa7dabd-b8a8-4e67-8a11-54289b06f11d")
-		)
-		(pin "2"
-			(uuid "bb3d7ba1-d0c3-4fad-82b2-b25213d376bf")
+		(pin "21"
+			(uuid "6452fbe6-cc83-4207-8846-d640957bc7dc")
 		)
 		(pin "4"
-			(uuid "e1409547-b884-46fc-b372-9816ef263d77")
-		)
-		(pin "6"
-			(uuid "ff05b7f7-0406-44ec-822b-e26b9cff5df5")
-		)
-		(pin "3"
-			(uuid "e49f2f82-2ca3-44d7-bb67-1307b0365977")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 285.75 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "698e042c-86c4-4169-b5c2-38706fb33fa7")
-		(property "Reference" "U9"
-			(at 283.6067 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 283.6067 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 265.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 276.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 285.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "2f492e06-5d93-493b-ad58-266c26ae5c89")
 		)
 		(pin "5"
-			(uuid "fef2dfcf-10cd-40c1-a340-e07919eb4970")
-		)
-		(pin "10"
-			(uuid "65d8779b-64ee-406a-93c6-c2b771508bb3")
-		)
-		(pin "9"
-			(uuid "2d318a53-1b5f-4105-829a-5ff6b3f633db")
-		)
-		(pin "7"
-			(uuid "5b8b8b81-ef05-4569-97d0-368d8a6d8bed")
-		)
-		(pin "1"
-			(uuid "515bcd2f-1d8b-4dae-97ce-b24d7e3fedc6")
-		)
-		(pin "8"
-			(uuid "8ab7ac8b-a5c1-401a-af68-2b2574cf5297")
-		)
-		(pin "2"
-			(uuid "e9330e75-af26-4a76-b5b7-f51c045a9e8e")
-		)
-		(pin "4"
-			(uuid "67afcb2b-46b7-4baf-99f4-abb234f82af4")
-		)
-		(pin "6"
-			(uuid "95dba923-a1c7-4ff1-aab2-9f0b84bc6505")
+			(uuid "717d40c4-a555-4756-a0e3-f2402ba103ec")
 		)
 		(pin "3"
-			(uuid "2d0d594d-140b-4c1b-8342-f8d926bd4d0c")
+			(uuid "d235f4f1-8c59-4ad3-aedd-622d73d6d6ec")
+		)
+		(pin "7"
+			(uuid "c4459c6c-425e-4ac6-88f5-4a205af48f1f")
+		)
+		(pin "12"
+			(uuid "d7eda7e8-d99e-4ea1-b31c-318689043ca1")
+		)
+		(pin "27"
+			(uuid "e8d52185-ffa1-48e6-a4f0-1860130bbe37")
+		)
+		(pin "17"
+			(uuid "318878c5-8fbf-4d1c-adca-7ad36493b616")
+		)
+		(pin "9"
+			(uuid "31ae970d-2b59-4bd5-a3f9-a11f45c3fbd0")
+		)
+		(pin "2"
+			(uuid "c9fb5ce4-16fe-49e6-86b1-43dcb48211cf")
+		)
+		(pin "22"
+			(uuid "cd81b4cf-cdf5-4833-83ee-0ebb2d54b6bb")
+		)
+		(pin "40"
+			(uuid "2e0817c4-4003-4c22-8feb-791a1b77bff0")
+		)
+		(pin "15"
+			(uuid "a88d1484-d42f-4fd6-85b3-6c5bf7c7e253")
+		)
+		(pin "6"
+			(uuid "0e05e934-5cd6-4837-a8d3-60055d51c33b")
+		)
+		(pin "18"
+			(uuid "2539ac38-b45b-435e-b357-95b2beb50185")
+		)
+		(pin "20"
+			(uuid "a0d79a7a-3446-4d0f-833f-cbc63fa8ef0e")
+		)
+		(pin "41"
+			(uuid "acf5a8a3-ea0b-4616-9dc3-5b05bf232496")
+		)
+		(pin "37"
+			(uuid "09e02886-bc85-4675-b9e5-6d5f21455966")
+		)
+		(pin "36"
+			(uuid "2e6eb3b6-bd8f-4b21-87e0-6d910c553ea0")
+		)
+		(pin "39"
+			(uuid "6b5e0828-31ff-4f6f-a5f3-0f11f067a3c6")
+		)
+		(pin "38"
+			(uuid "08ace7d5-9097-4679-8310-5c0231b38568")
+		)
+		(pin "19"
+			(uuid "04f0b3d3-ee4f-4290-be1e-41622f6bff88")
+		)
+		(pin "8"
+			(uuid "c9e4fc11-ef05-4af7-9ff8-a572c060a34b")
+		)
+		(pin "32"
+			(uuid "ea78e966-d6f5-4269-8dd8-00ed0ff08eb9")
+		)
+		(pin "31"
+			(uuid "51b52162-1242-4ff6-8381-80ed0f3a55e3")
+		)
+		(pin "24"
+			(uuid "6fb7ee37-ce9a-4045-9563-5eebd80cbe58")
+		)
+		(pin "23"
+			(uuid "f25ec734-474c-49b3-863a-f579c144fb75")
+		)
+		(pin "35"
+			(uuid "e0a9066e-0ffd-4a9d-a87b-b6047c31a5f6")
+		)
+		(pin "25"
+			(uuid "9ef262e5-6658-4728-b0c5-8ea2ce5f1f8b")
+		)
+		(pin "11"
+			(uuid "33fcdad8-052f-41ea-a390-f79a82e316ad")
+		)
+		(pin "28"
+			(uuid "0c6ec39d-28fa-4d69-9b28-d803e79dc723")
+		)
+		(pin "30"
+			(uuid "13e2e34d-d0a7-450a-9cd2-7fe69e67f405")
+		)
+		(pin "16"
+			(uuid "fc5912e7-9ba9-4e51-81d1-3c4cdad3dcc0")
+		)
+		(pin "14"
+			(uuid "59029535-d96a-4259-b383-38181fcdc1ec")
+		)
+		(pin "13"
+			(uuid "d44ba494-74ab-4d69-94ab-404e439eaa53")
+		)
+		(pin "29"
+			(uuid "dc5ab396-f009-4672-8c5a-d78f8b6ecf4e")
+		)
+		(pin "34"
+			(uuid "8eebd587-3246-4e5d-8c4d-ecb531ff1de9")
+		)
+		(pin "26"
+			(uuid "a933a650-ba8b-4439-99c8-38f84346cd8f")
+		)
+		(pin "33"
+			(uuid "533ead30-88d3-4d1d-9de6-2de1598efb64")
 		)
 		(instances
-			(project "SlimeVR_Dock"
+			(project ""
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5557,7 +5262,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Fan_4pin")
-		(at 177.8 213.36 0)
+		(at 215.9 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5565,7 +5270,7 @@
 		(dnp no)
 		(uuid "7c3c7dc0-9233-43a3-acef-7f8239b480d9")
 		(property "Reference" "M1"
-			(at 182.88 212.0899 0)
+			(at 208.28 213.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5279,7 @@
 			)
 		)
 		(property "Value" "NF-A4x10 24V PWM"
-			(at 182.88 214.122 0)
+			(at 224.79 216.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 213.106 0)
+			(at 215.646 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
-			(at 177.8 213.106 0)
+			(at 215.646 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5306,7 @@
 			)
 		)
 		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
-			(at 177.8 213.36 0)
+			(at 215.9 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,16 +5337,15 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at 189.23 227.33 270)
+		(at 214.63 207.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87debcf9-09a5-4eb4-a53f-ae4527ecafa1")
-		(property "Reference" "U16"
-			(at 189.23 217.17 90)
+		(property "Reference" "U4"
+			(at 217.932 198.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5353,7 @@
 			)
 		)
 		(property "Value" "DS18B20"
-			(at 189.23 219.71 90)
+			(at 220.472 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5361,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 182.88 201.93 0)
+			(at 220.98 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5370,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 195.58 223.52 0)
+			(at 208.28 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5379,7 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 189.23 227.33 0)
+			(at 214.63 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,90 +5399,7 @@
 		(instances
 			(project ""
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:AP22652W6-7")
-		(at 123.19 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ac83376-3a00-4875-9d1b-27e33c99457f")
-		(property "Reference" "U13"
-			(at 130.556 49.784 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AP22652W6-7"
-			(at 130.556 52.324 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SOIC_52W6-7_DIO"
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP22652W6-7"
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "13cd6259-79ca-4e32-9045-d53d6cd8ea5d")
-		)
-		(pin "6"
-			(uuid "11eb58cc-5b0b-4509-ad73-cfd480711daa")
-		)
-		(pin "2"
-			(uuid "156464de-3918-4ff3-b459-a788a5291b31")
-		)
-		(pin "1"
-			(uuid "698275d0-c17b-457a-8da8-6cd31eaf7eea")
-		)
-		(pin "5"
-			(uuid "38677647-9be5-48f2-ae4a-6136f11d3961")
-		)
-		(pin "4"
-			(uuid "95942b0d-efaf-4a3a-8741-2f9ad62a6660")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U13")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5786,7 +5407,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 195.58 189.23 0)
+		(at 218.44 190.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5794,8 +5415,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8aeb1b8f-b63a-4d3b-92d0-cf77ade32c2c")
-		(property "Reference" "J12_FromR0"
-			(at 188.976 186.69 0)
+		(property "Reference" "J_FromR0"
+			(at 211.836 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5424,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 186.944 189.23 0)
+			(at 209.804 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +5432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 189.23 0)
+			(at 218.44 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 189.23 0)
+			(at 218.44 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +5450,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 189.23 0)
+			(at 218.44 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5467,7 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J12_FromR0")
+					(reference "J_FromR0")
 					(unit 1)
 				)
 			)
@@ -5914,6 +5535,79 @@
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 320.04 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "956ee6d1-468c-46bf-9038-fe5033ff14d6")
+		(property "Reference" "J1_Prog"
+			(at 321.31 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 321.31 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 320.04 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b1f8bbd-07ef-481a-8115-fcf8e661e259")
+		)
+		(pin "3"
+			(uuid "faba4669-3c4c-4bca-9061-97de6ee4dfec")
+		)
+		(pin "1"
+			(uuid "026d9d14-2803-4082-b57d-f14a43704cc6")
+		)
+		(instances
+			(project ""
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
+					(reference "J1_Prog")
 					(unit 1)
 				)
 			)
@@ -6016,15 +5710,15 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:XC6220B331MR")
-		(at 278.13 193.04 0)
+		(at 245.11 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a2d0b1b9-08d6-477d-9609-c01c5eb03c6b")
-		(property "Reference" "U15"
-			(at 278.13 182.88 0)
+		(property "Reference" "U3"
+			(at 245.11 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5726,7 @@
 			)
 		)
 		(property "Value" "XC6220B331MR"
-			(at 278.13 185.42 0)
+			(at 245.11 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +5734,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 278.13 193.04 0)
+			(at 245.11 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +5743,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf"
-			(at 297.18 218.44 0)
+			(at 264.16 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +5752,7 @@
 			)
 		)
 		(property "Description" "1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 278.13 193.04 0)
+			(at 245.11 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +5778,7 @@
 		(instances
 			(project ""
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U15")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6100,7 +5794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a313d36d-4b68-4832-bc9b-fc3e6bc53119")
-		(property "Reference" "J10_ToR0"
+		(property "Reference" "J_ToR0"
 			(at 116.84 207.0099 0)
 			(effects
 				(font
@@ -6154,235 +5848,7 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J10_ToR0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 275.59 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a429f295-8a4e-49dc-9877-575601d97fc7")
-		(property "Reference" "J5"
-			(at 293.624 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 293.624 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 275.59 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 275.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "bb5373e7-81e0-4e16-a7ab-d58d6fb372e2")
-		)
-		(pin "A8"
-			(uuid "0d9f5023-e5c7-41c4-9974-84751f8dc2c5")
-		)
-		(pin "B7"
-			(uuid "7ab22137-15b7-40e4-8add-120e8aed83f7")
-		)
-		(pin "S1"
-			(uuid "27084429-a556-4da4-9a81-bf65678bf5a8")
-		)
-		(pin "B4"
-			(uuid "2d8512a4-e51b-4d53-b861-b6ddf7766c93")
-		)
-		(pin "B9"
-			(uuid "9a72f52e-368f-442d-b335-eb55b90013ce")
-		)
-		(pin "B5"
-			(uuid "749e9f84-2ad8-4995-b41c-9ea1755950de")
-		)
-		(pin "B1"
-			(uuid "1faac333-6cdc-427d-a47a-db48c6008594")
-		)
-		(pin "A6"
-			(uuid "48c76ed9-3100-4bc0-999f-f106c2d5a434")
-		)
-		(pin "B12"
-			(uuid "72af23c8-c0af-4ebc-9686-155776a3fb6d")
-		)
-		(pin "A1"
-			(uuid "964b2924-5401-4328-98ca-b36d0e2fa0d0")
-		)
-		(pin "A9"
-			(uuid "382d2b5b-6ffb-411e-9812-72f2277f9fdc")
-		)
-		(pin "A7"
-			(uuid "393abd53-bd02-4ca4-9560-6cb1c98fd95c")
-		)
-		(pin "A12"
-			(uuid "abcf1860-05ad-467a-9c45-feb486ce0726")
-		)
-		(pin "A4"
-			(uuid "8d4fe572-9818-4075-ab83-1cec87d879a4")
-		)
-		(pin "B6"
-			(uuid "5cd244a3-fc26-4306-8c75-51da81ccee19")
-		)
-		(pin "B8"
-			(uuid "6948b640-4924-4226-8f5b-3f28740fb9dc")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 213.36 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6256a7b-baf4-4c6c-a6f3-cc4757a3bc1f")
-		(property "Reference" "J6"
-			(at 231.394 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 231.394 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 213.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 213.36 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "acfe34c5-ad8c-477b-b42e-85fc4622bf2e")
-		)
-		(pin "A8"
-			(uuid "b0c443d3-8c46-4a57-88d4-4b3f4984084c")
-		)
-		(pin "B7"
-			(uuid "8c8542af-b01a-4ec5-b2f1-b974f85d8966")
-		)
-		(pin "S1"
-			(uuid "65e30d00-1189-4fc0-ba2e-bccbfaafbafd")
-		)
-		(pin "B4"
-			(uuid "a122ae34-426b-4497-aef3-1ab381563829")
-		)
-		(pin "B9"
-			(uuid "56d1795e-edc6-4985-9101-396f7da05db9")
-		)
-		(pin "B5"
-			(uuid "de15698a-cc39-4442-b254-0dac79bc09c8")
-		)
-		(pin "B1"
-			(uuid "4eb6fc10-430e-475f-9421-e8d6da8ba3ab")
-		)
-		(pin "A6"
-			(uuid "45e54507-e020-4403-b0e8-4a8d0961c817")
-		)
-		(pin "B12"
-			(uuid "f4574ccf-c1ea-4e74-bd04-1513177965c8")
-		)
-		(pin "A1"
-			(uuid "6e964a95-6548-4be4-a131-6cc575ae4ce9")
-		)
-		(pin "A9"
-			(uuid "fa3add8f-eb1b-43b7-9666-57d5901f16dc")
-		)
-		(pin "A7"
-			(uuid "52052888-243f-4b79-9838-b705b0282c66")
-		)
-		(pin "A12"
-			(uuid "29afe757-dc96-488c-8b5c-c509001577da")
-		)
-		(pin "A4"
-			(uuid "07ec7e0e-f0a0-4dd9-92c1-9854939bf61c")
-		)
-		(pin "B6"
-			(uuid "b4db45c9-03e4-4fbe-af34-374db41b9bb4")
-		)
-		(pin "B8"
-			(uuid "4c40af2d-ab65-4010-95a2-b93cbfb128e4")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J6")
+					(reference "J_ToR0")
 					(unit 1)
 				)
 			)
@@ -6448,862 +5914,6 @@
 			(project ""
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 77.47 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa425107-65df-4c52-9a90-1899df972f33")
-		(property "Reference" "U5"
-			(at 79.6133 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 79.6133 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 97.79 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 86.36 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 77.47 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0ce67c0e-10cf-44b0-83d1-0d31cefa3510")
-		)
-		(pin "10"
-			(uuid "c9f23d33-c22a-49ec-89cd-063ced340e8a")
-		)
-		(pin "9"
-			(uuid "d17c1ad1-21d0-425a-97fe-96b383117f45")
-		)
-		(pin "7"
-			(uuid "969348af-f335-4a23-9976-38e6f203ed68")
-		)
-		(pin "1"
-			(uuid "c03db051-cc79-447f-886f-da718d61fad4")
-		)
-		(pin "8"
-			(uuid "dfd77ccf-b596-44e1-85cd-cb25c3264ed1")
-		)
-		(pin "2"
-			(uuid "29f6f092-231e-47d6-874b-cc28a4a756b4")
-		)
-		(pin "4"
-			(uuid "898aa56c-7f39-4aeb-a091-f40d25a16961")
-		)
-		(pin "6"
-			(uuid "1e682f79-bcab-4b17-b255-c4944698e1c2")
-		)
-		(pin "3"
-			(uuid "09294731-93c2-4702-8dbe-c43a0253ca67")
-		)
-		(instances
-			(project ""
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 213.36 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab6ae4ff-2804-484c-8fa5-e7ce16f599f7")
-		(property "Reference" "J3"
-			(at 195.326 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 195.326 17.526 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 213.36 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 213.36 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "bc20da16-bae7-4f43-a9a5-73802a829ec6")
-		)
-		(pin "A8"
-			(uuid "4a9589b6-be1e-4b61-bab7-48437cea8a66")
-		)
-		(pin "B7"
-			(uuid "1e6e9550-b8f0-4e2f-8547-a68e9515f751")
-		)
-		(pin "S1"
-			(uuid "8290b5c3-3727-4216-b62b-528e8242d2bd")
-		)
-		(pin "B4"
-			(uuid "bcdb8775-0337-40f6-ad2b-48cfe20356f3")
-		)
-		(pin "B9"
-			(uuid "1804a666-b33f-4be5-a7d0-75924b8ebf81")
-		)
-		(pin "B5"
-			(uuid "9fd826e5-aabc-40a8-8d5d-9ef9974affca")
-		)
-		(pin "B1"
-			(uuid "f8bd29e7-704f-4cc2-9d8b-ac1edf9c2864")
-		)
-		(pin "A6"
-			(uuid "fd1c09b3-3154-47b7-91fc-42c711fedcf2")
-		)
-		(pin "B12"
-			(uuid "f7708dcb-05f4-4a87-87dc-d973c7c09cd1")
-		)
-		(pin "A1"
-			(uuid "f27418c1-7ead-40f6-b671-449ebac3f705")
-		)
-		(pin "A9"
-			(uuid "005a8c57-b97c-43a9-b195-4c02570033f8")
-		)
-		(pin "A7"
-			(uuid "bba29a12-6aca-4dd5-9d30-a8d4c70849f3")
-		)
-		(pin "A12"
-			(uuid "6afc3f44-1b18-4173-b3e9-b3f1bd260d00")
-		)
-		(pin "A4"
-			(uuid "83cd1287-7cf2-42d4-a3d0-140eb62d460e")
-		)
-		(pin "B6"
-			(uuid "8fd67f46-a94c-4afa-a5ed-c31a338403bd")
-		)
-		(pin "B8"
-			(uuid "c6b616e2-5f12-49a0-804d-611edd2bbf5c")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Module:ESP32-C3-WROOM-02")
-		(at 254 218.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad7e9901-10ef-4ee6-af4f-76eab8ded979")
-		(property "Reference" "U1"
-			(at 254 234.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-C3-WROOM-02"
-			(at 254.254 232.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
-			(at 254.635 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
-			(at 254.635 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
-			(at 254.635 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "a510b643-875a-4b19-8938-41c4cdec126b")
-		)
-		(pin "11"
-			(uuid "cb83fe40-cedd-4885-a205-4d28a9a69c07")
-		)
-		(pin "18"
-			(uuid "d5722cbb-dda0-4b61-802f-ab1610e1feb7")
-		)
-		(pin "3"
-			(uuid "ed956066-9854-438c-81a2-f68b17c8a86e")
-		)
-		(pin "14"
-			(uuid "f00b2399-1329-4553-92d9-bb1f0cd2c34a")
-		)
-		(pin "15"
-			(uuid "1c39c80e-6081-41e5-8cc8-bcd721ec52ee")
-		)
-		(pin "19"
-			(uuid "93a39fe0-d66d-422a-b20f-4226623822f6")
-		)
-		(pin "7"
-			(uuid "62bc9b1d-c99e-4280-9ac5-e926b770e6b3")
-		)
-		(pin "17"
-			(uuid "640f244c-79e1-44ab-9904-ae2b3312a745")
-		)
-		(pin "2"
-			(uuid "73c5dbf4-32f4-46a9-83d7-45cd84cbfecb")
-		)
-		(pin "6"
-			(uuid "9440b65d-aea9-4cf3-a47f-3ac82c863c5c")
-		)
-		(pin "1"
-			(uuid "cb5f84d0-e577-4a62-9b5b-d8f5eb4426da")
-		)
-		(pin "9"
-			(uuid "6319e912-9bf1-43d8-9da5-547657c7996f")
-		)
-		(pin "8"
-			(uuid "79ee5a7f-599e-4fc2-a4c3-b6cf1c2ff9aa")
-		)
-		(pin "12"
-			(uuid "617d2334-efc2-4428-b193-4a2190abb397")
-		)
-		(pin "16"
-			(uuid "b179c430-0e10-4e25-a694-db87caeb9cfd")
-		)
-		(pin "10"
-			(uuid "9d0a5f1f-bb69-4cf5-8f26-c667f58b06ba")
-		)
-		(pin "4"
-			(uuid "fad575e2-fef1-4741-8890-4f297a07c020")
-		)
-		(pin "13"
-			(uuid "dc2bf031-0913-4830-864a-dcbacc6fb54c")
-		)
-		(instances
-			(project ""
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 87.63 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4ce8dd7-14df-4d7f-8461-5d2147420cc6")
-		(property "Reference" "J1"
-			(at 69.596 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 69.596 17.526 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 87.63 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 87.63 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "da0f8112-57fe-4055-8998-cb4f0aceb4eb")
-		)
-		(pin "A8"
-			(uuid "16ca38e8-6e6d-4235-9db8-754aa3875276")
-		)
-		(pin "B7"
-			(uuid "21a8c411-b8e6-498d-8e39-16d465afbd20")
-		)
-		(pin "S1"
-			(uuid "30da4fe6-bc39-4b38-ac7d-e546f4843f17")
-		)
-		(pin "B4"
-			(uuid "f65f8ed0-5b35-4e0d-a957-3cbf6dfa84ae")
-		)
-		(pin "B9"
-			(uuid "aa25c6ab-273a-4792-93d9-cbcf1251078b")
-		)
-		(pin "B5"
-			(uuid "7dc35205-0f3b-4fec-9057-82bb60a38154")
-		)
-		(pin "B1"
-			(uuid "17254114-5fe8-44eb-9a27-431eb3ba4d87")
-		)
-		(pin "A6"
-			(uuid "956b1bac-59ad-4ecb-8f20-74bc1fe20ef7")
-		)
-		(pin "B12"
-			(uuid "1143d697-e5a4-4c40-a1b4-1e1ba50fd6d9")
-		)
-		(pin "A1"
-			(uuid "c06d95f5-d08d-44e6-980b-bde514cc6b4b")
-		)
-		(pin "A9"
-			(uuid "1cf2e8c3-68df-4c7c-af0b-d9d3425ddc03")
-		)
-		(pin "A7"
-			(uuid "e63bc254-ceb5-45aa-8bf4-095e49a7b48b")
-		)
-		(pin "A12"
-			(uuid "a1ddae67-f09d-4d55-9dbb-6a44fe0c6a03")
-		)
-		(pin "A4"
-			(uuid "2dcc2fa1-f82a-44b8-8fa7-760fc66b1bce")
-		)
-		(pin "B6"
-			(uuid "30f2a36e-cd0b-4f2d-af41-bc1eca073748")
-		)
-		(pin "B8"
-			(uuid "0188af5c-58af-4289-ac5b-1076c43e440a")
-		)
-		(instances
-			(project ""
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 149.86 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba873ddd-5809-4f55-bfc6-c6ef968ecb06")
-		(property "Reference" "J7"
-			(at 167.894 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 167.894 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 149.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 149.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "3ef80b6e-a3d7-4858-9eb6-01dce64a04c2")
-		)
-		(pin "A8"
-			(uuid "2553261c-7537-4947-9e51-951356c327a0")
-		)
-		(pin "B7"
-			(uuid "501d9eb9-0d8f-4f22-b481-267d93a27319")
-		)
-		(pin "S1"
-			(uuid "9f322a97-228d-4756-b3ca-d1224bb8c935")
-		)
-		(pin "B4"
-			(uuid "4520ed21-2efd-4c31-8b88-46e587715586")
-		)
-		(pin "B9"
-			(uuid "de4f88fe-3666-494a-b4b6-e2174229118e")
-		)
-		(pin "B5"
-			(uuid "1fa5fcae-f666-4f1e-b1c8-b8aaf5845f00")
-		)
-		(pin "B1"
-			(uuid "93b37ff5-13c1-4d81-acd9-a2a86b03c549")
-		)
-		(pin "A6"
-			(uuid "5d11e39f-86a9-4718-8455-20a4be43e6fa")
-		)
-		(pin "B12"
-			(uuid "d415008c-76a9-42ab-a553-7edb0898a65b")
-		)
-		(pin "A1"
-			(uuid "c8f7f092-aa0c-4c00-a655-d398736b96fc")
-		)
-		(pin "A9"
-			(uuid "54fde52c-e879-48cd-9efa-b0fdc9620f8a")
-		)
-		(pin "A7"
-			(uuid "801322ae-5113-4d3d-b98e-4f6401064fd0")
-		)
-		(pin "A12"
-			(uuid "7627ed55-1d49-4c80-9d3a-47189169ca0d")
-		)
-		(pin "A4"
-			(uuid "f5c29d21-6e1a-4b6e-95de-0c0c24238604")
-		)
-		(pin "B6"
-			(uuid "48808192-d3fc-422b-aad1-037951a67d7b")
-		)
-		(pin "B8"
-			(uuid "c8a1dc35-ee55-47fd-b633-0d9acaa12612")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 203.2 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb301f89-606e-4914-87eb-95994f5aee9d")
-		(property "Reference" "U7"
-			(at 205.3433 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 205.3433 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 223.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6eb140f7-c628-4320-b61a-5220dacdab6c")
-		)
-		(pin "10"
-			(uuid "9f68a249-1161-47b1-af6b-d247fb4e06bb")
-		)
-		(pin "9"
-			(uuid "3c6fac49-a7fc-46f9-8cbe-520a2f4695b6")
-		)
-		(pin "7"
-			(uuid "3b1bcc2b-f66a-450b-9228-2fa83584f527")
-		)
-		(pin "1"
-			(uuid "82b261ed-2fbf-46bd-8505-24bbaa302a0c")
-		)
-		(pin "8"
-			(uuid "a1c1068a-fcf9-49b5-8c92-e5a13c733b98")
-		)
-		(pin "2"
-			(uuid "10729c4a-3f93-4cce-b4a0-ad96d6629eb2")
-		)
-		(pin "4"
-			(uuid "24b92e50-7eb3-43c2-bf9f-a1033c5e1600")
-		)
-		(pin "6"
-			(uuid "48018038-9869-45b9-9ccb-8fe344934d9a")
-		)
-		(pin "3"
-			(uuid "743f867e-306a-4d3a-a023-a79ebc9febbb")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 149.86 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf1dab8a-1c11-45d8-bb0a-b7a86039599f")
-		(property "Reference" "J2"
-			(at 131.826 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 131.826 17.526 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 149.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "2a057d01-3b15-47eb-b7c6-4e369f22fe56")
-		)
-		(pin "A8"
-			(uuid "bea357ac-994e-42d9-b3a3-8c1c87c31672")
-		)
-		(pin "B7"
-			(uuid "0366ac66-01e3-4793-82fb-82e1670e1241")
-		)
-		(pin "S1"
-			(uuid "a5ec89fa-25d2-4fce-96b8-f0f57f93d970")
-		)
-		(pin "B4"
-			(uuid "26b9b0fe-429f-4b88-abe5-ba7847a0d00b")
-		)
-		(pin "B9"
-			(uuid "795eae71-f4e7-4f7f-8121-39d7527322e3")
-		)
-		(pin "B5"
-			(uuid "686e4ffa-758e-4985-9f18-1f546d60819a")
-		)
-		(pin "B1"
-			(uuid "f3e25d85-ecf8-4ced-955d-9ab6a207ddee")
-		)
-		(pin "A6"
-			(uuid "9b80a987-f64e-431f-9e5d-e3df6b066f5a")
-		)
-		(pin "B12"
-			(uuid "50de6c9c-2293-4cdf-a23d-364a9aaf6fc4")
-		)
-		(pin "A1"
-			(uuid "5af16d96-7d36-40cc-9eae-9e6906caeb05")
-		)
-		(pin "A9"
-			(uuid "006f03e9-fd28-4c62-828a-bd671f976c47")
-		)
-		(pin "A7"
-			(uuid "f67fee2c-a752-4b8f-a6d3-0a919df586fd")
-		)
-		(pin "A12"
-			(uuid "1a368b2d-e25c-4a94-bf65-228aadcf5cde")
-		)
-		(pin "A4"
-			(uuid "89e64655-01a8-4f02-bac4-e753c54c42b9")
-		)
-		(pin "B6"
-			(uuid "20cc9168-7945-4ab8-a102-e8ddb0483d99")
-		)
-		(pin "B8"
-			(uuid "9c5ca9a1-b5a0-4421-83d1-d6f14b1f1d5f")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 139.7 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4aeb890-dd52-4a50-8528-ab83faebedc3")
-		(property "Reference" "U6"
-			(at 141.8433 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 141.8433 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 148.59 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5dcff039-38f8-4916-8128-9969e4fdc836")
-		)
-		(pin "10"
-			(uuid "8572749a-a5ce-412b-8a22-49a51a697e11")
-		)
-		(pin "9"
-			(uuid "bf4babd2-2d43-4d06-a4a3-ebeddac89555")
-		)
-		(pin "7"
-			(uuid "23ec8ee7-6126-4b4f-98e2-ac4d3ea89cb9")
-		)
-		(pin "1"
-			(uuid "8e3aa158-6ca4-4fe2-b2c3-4c038c632348")
-		)
-		(pin "8"
-			(uuid "c0915a42-a730-45cb-9ddf-c871caefb3c2")
-		)
-		(pin "2"
-			(uuid "255f793e-b04d-4dfa-9f09-e35d0a55039e")
-		)
-		(pin "4"
-			(uuid "0561f2d1-ac58-4588-857b-91547592ee4e")
-		)
-		(pin "6"
-			(uuid "a853eb2a-4110-4814-b43a-ea0c943423d6")
-		)
-		(pin "3"
-			(uuid "e9f95455-155f-40a2-93fe-b4f4f5830aa8")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7452,44 +6062,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 265.43 127 0)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 320.04 240.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "db75228f-dda5-48e1-a2c4-a1c189e79445")
-		(property "Reference" "U8"
-			(at 267.5733 111.76 0)
+		(uuid "e4f7f11d-3eb9-4ebe-ad24-3011f6282ac6")
+		(property "Reference" "J1_Control"
+			(at 321.31 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "INA226"
-			(at 267.5733 114.3 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 321.31 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 285.75 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 274.32 129.54 0)
+		(property "Footprint" ""
+			(at 320.04 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,8 +6098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 265.43 127 0)
+		(property "Datasheet" "~"
+			(at 320.04 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,133 +6107,28 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "b7911e0f-bb1e-4b24-89cb-7a8501b02ec3")
-		)
-		(pin "10"
-			(uuid "d81e9e61-827b-4437-b3a1-8cacc371659d")
-		)
-		(pin "9"
-			(uuid "cf2b5a39-6036-404e-8a03-9320e88719c9")
-		)
-		(pin "7"
-			(uuid "80349a82-4e7f-437e-b782-0762e940a6d9")
-		)
-		(pin "1"
-			(uuid "67eaaf1b-a4d2-40ef-903b-2e265b2a9431")
-		)
-		(pin "8"
-			(uuid "b8b67dfb-21b2-4708-bb73-822122b547f3")
-		)
-		(pin "2"
-			(uuid "a3972fb3-c972-4f15-b19f-9b588d6e0751")
-		)
-		(pin "4"
-			(uuid "5f7bf621-be6d-4177-9d8a-cce667292726")
-		)
-		(pin "6"
-			(uuid "05415a27-fa0e-4c3e-8f75-4af38d5c2e07")
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 320.04 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "35959632-31ce-4ff7-a43c-38191b5410f9")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Energy:INA226")
-		(at 223.52 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ede44938-66e5-4fac-9b06-057bbfe5b312")
-		(property "Reference" "U10"
-			(at 221.3767 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA226"
-			(at 221.3767 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 203.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina226.pdf"
-			(at 214.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
-			(at 223.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5236d4fb-ed8f-4912-ab8d-ace6ddfbfbe8")
-		)
-		(pin "10"
-			(uuid "c1ff241d-0b8f-42eb-bcd6-c06106e8f62f")
-		)
-		(pin "9"
-			(uuid "f10f62db-ae78-4828-b28b-a7cb825deb1e")
-		)
-		(pin "7"
-			(uuid "d2edce5c-8374-471e-baaa-2441d131d1c2")
+			(uuid "a516cdb5-6763-4144-aec4-2186e5395dac")
 		)
 		(pin "1"
-			(uuid "e80a7190-f18b-49f7-9e40-01d22672c2fd")
-		)
-		(pin "8"
-			(uuid "7daaff74-fff6-4918-ba34-b015f39bc8f4")
+			(uuid "5d1f5679-34e2-48e0-9fd9-e1081e31b427")
 		)
 		(pin "2"
-			(uuid "f939030a-ad8a-42da-9036-48e9f49ed148")
-		)
-		(pin "4"
-			(uuid "ac6241ad-a9f9-4338-9819-4bd33b457852")
-		)
-		(pin "6"
-			(uuid "42ab2c46-541f-4e77-b9dd-f2f864053a7f")
-		)
-		(pin "3"
-			(uuid "f5f26da0-2eec-4c19-8652-13d026077f3d")
+			(uuid "993b24ed-6f0f-4c0e-b470-a23fa3dc5e18")
 		)
 		(instances
-			(project "SlimeVR_Dock"
+			(project ""
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "U10")
+					(reference "J1_Control")
 					(unit 1)
 				)
 			)
@@ -7705,120 +6201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 275.59 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff0edff4-5fe5-47df-8482-99e8a6d176ee")
-		(property "Reference" "J4"
-			(at 257.556 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 257.556 17.526 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 275.59 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 275.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "d9d4bb42-f29e-4853-af88-effb7a723911")
-		)
-		(pin "A8"
-			(uuid "a7be5d41-c829-420d-9b05-7d7c82e29bbc")
-		)
-		(pin "B7"
-			(uuid "370b288b-9a51-47db-bf69-9adacfcbf831")
-		)
-		(pin "S1"
-			(uuid "707c953d-faf9-4102-bbc9-12d4b83fb0b7")
-		)
-		(pin "B4"
-			(uuid "98915005-aea4-4abe-8f6c-2876cad21ed5")
-		)
-		(pin "B9"
-			(uuid "56542224-64e8-4bb7-ab03-a5c343bb41e7")
-		)
-		(pin "B5"
-			(uuid "c2494677-22b2-496f-9b2b-383d4ef1086b")
-		)
-		(pin "B1"
-			(uuid "41516168-1117-4ebc-b120-88008aaa15ef")
-		)
-		(pin "A6"
-			(uuid "c02bba10-d8ef-48ef-b425-b75870faf853")
-		)
-		(pin "B12"
-			(uuid "ee98d471-3a5d-4134-baa3-a5d27bc81991")
-		)
-		(pin "A1"
-			(uuid "48cb968a-ac01-482a-9786-aebde9c53f83")
-		)
-		(pin "A9"
-			(uuid "e0c7e594-16dd-4667-9297-2dbedac9d632")
-		)
-		(pin "A7"
-			(uuid "7e4df46e-6b43-428e-9e4f-4fcf640acf15")
-		)
-		(pin "A12"
-			(uuid "ef07f67d-20a6-421e-9985-8290ae7b22d6")
-		)
-		(pin "A4"
-			(uuid "71da1b17-5db0-40dd-b034-d3926b67f804")
-		)
-		(pin "B6"
-			(uuid "f24f5885-3b6c-47aa-9810-0bb39d517f5b")
-		)
-		(pin "B8"
-			(uuid "64e8ff0f-9538-437e-a5b0-6695b12412a0")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 102.87 215.9 180)
 		(unit 1)
@@ -7881,6 +6263,119 @@
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
 					(reference "R4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 132.08)
+		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20608bd6-1177-4976-ba2c-965ba6250d58")
+		(property "Sheetname" "Dual_USB-C_SubSchema"
+			(at 149.86 131.3684 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DUSBSS.kicad_sch"
+			(at 149.86 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 191.77 149.86 0)
+			(uuid "fd21bedf-cefd-4061-bfe9-8306f0a583a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 191.77 152.4 0)
+			(uuid "d55a54c8-8f09-4eab-abfa-f22e136bc2bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAULT" output
+			(at 191.77 133.35 0)
+			(uuid "72dafb5a-9dc8-4ac1-8c2e-f1781e26a42a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT_1" output
+			(at 191.77 135.89 0)
+			(uuid "5d0c0b14-c95c-425f-840b-4bd743752da9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT_2" output
+			(at 191.77 138.43 0)
+			(uuid "67e8ec56-1e18-43f2-b9ed-8e97c0f2b7c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 191.77 143.51 0)
+			(uuid "ab20bf7f-9eb0-47cc-8d63-30e719a4eefb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC_DETECT" output
+			(at 191.77 140.97 0)
+			(uuid "8b01743f-897e-49c7-ae0b-c5fcdf38bb70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
+					(page "2")
 				)
 			)
 		)

@@ -412,6 +412,10 @@
     [
       "06ff9557-1f9b-4670-8a34-bb7684a016dd",
       "Root"
+    ],
+    [
+      "20608bd6-1177-4976-ba2c-965ba6250d58",
+      "Dual_USB-C_SubSchema"
     ]
   ],
   "text_variables": {}
