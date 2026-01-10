@@ -415,7 +415,51 @@
     ],
     [
       "20608bd6-1177-4976-ba2c-965ba6250d58",
-      "Dual_USB-C_SubSchema"
+      "Dual_USB-C_SubSchema0"
+    ],
+    [
+      "dcabbe47-460f-4120-827c-7d4d07bf229a",
+      "USB_C0"
+    ],
+    [
+      "aa530802-575e-4709-88a2-62d0301eba9c",
+      "USB_C1"
+    ],
+    [
+      "c6b53444-adaa-455c-990e-02e7d6acd668",
+      "Dual_USB-C_SubSchema1"
+    ],
+    [
+      "aa530802-575e-4709-88a2-62d0301eba9c",
+      "USB_C1"
+    ],
+    [
+      "dcabbe47-460f-4120-827c-7d4d07bf229a",
+      "USB_C0"
+    ],
+    [
+      "21559adc-22f0-4da5-bb39-da22b4a6076e",
+      "Dual_USB-C_SubSchema2"
+    ],
+    [
+      "aa530802-575e-4709-88a2-62d0301eba9c",
+      "USB_C1"
+    ],
+    [
+      "dcabbe47-460f-4120-827c-7d4d07bf229a",
+      "USB_C0"
+    ],
+    [
+      "2b86b0ae-2209-4a30-98e5-d26e75080e9f",
+      "Dual_USB-C_SubSchema3"
+    ],
+    [
+      "aa530802-575e-4709-88a2-62d0301eba9c",
+      "USB_C1"
+    ],
+    [
+      "dcabbe47-460f-4120-827c-7d4d07bf229a",
+      "USB_C0"
     ]
   ],
   "text_variables": {}
