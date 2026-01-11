@@ -1538,6 +1538,16 @@
 					(unit 1)
 				)
 			)
+			(project "DUSBSS"
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1680,6 +1690,16 @@
 					(unit 1)
 				)
 			)
+			(project "DUSBSS"
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "J?")
+					(unit 1)
+				)
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1770,6 +1790,16 @@
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "DUSBSS"
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1864,6 +1894,16 @@
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "DUSBSS"
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/d0a3a8d4-9434-43db-807c-4a4f57dbdc51/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
