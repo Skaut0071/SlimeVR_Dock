@@ -1265,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 91.44) (xy 128.27 97.79)
+			(xy 128.27 95.25) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 128.27 91.44)
+			(xy 129.54 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1398,7 @@
 	)
 	(hierarchical_label "CC_Line"
 		(shape bidirectional)
-		(at 129.54 91.44 0)
+		(at 129.54 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)

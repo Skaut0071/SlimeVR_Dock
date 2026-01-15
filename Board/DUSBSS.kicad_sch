@@ -952,6 +952,12 @@
 		(uuid "367ac86d-e17e-4571-828a-11c28779c0eb")
 	)
 	(junction
+		(at 181.61 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce81e57-6fa6-43b6-a987-092c9b0db29e")
+	)
+	(junction
 		(at 151.13 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -962,6 +968,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b1d7bc0-d1d3-446c-9702-d5d981a6a9da")
+	)
+	(junction
+		(at 140.97 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6570db-e054-42e2-8352-8ea14896d4cc")
 	)
 	(junction
 		(at 143.51 114.3)
@@ -996,6 +1008,16 @@
 			(type default)
 		)
 		(uuid "01c31b11-1cf3-4208-b99d-ca6202492daf")
+	)
+	(wire
+		(pts
+			(xy 143.51 142.24) (xy 143.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d9351f-8756-45e1-a049-9e69aa59de67")
 	)
 	(wire
 		(pts
@@ -1099,6 +1121,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 151.13) (xy 134.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aac065-521d-4f28-8f90-d2cb47713345")
+	)
+	(wire
+		(pts
 			(xy 128.27 86.36) (xy 124.46 86.36)
 		)
 		(stroke
@@ -1116,6 +1148,16 @@
 			(type default)
 		)
 		(uuid "585bb734-6e77-4bc8-b500-dc3c08fad04d")
+	)
+	(wire
+		(pts
+			(xy 143.51 151.13) (xy 140.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6d956b-9e8d-4eb4-81f0-abb4d36c715d")
 	)
 	(wire
 		(pts
@@ -1209,16 +1251,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 143.51 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998fa646-3eca-4781-873f-00f529646aac")
-	)
-	(wire
-		(pts
 			(xy 146.05 111.76) (xy 156.21 111.76)
 		)
 		(stroke
@@ -1286,6 +1318,16 @@
 			(type default)
 		)
 		(uuid "dcc10cf1-2a32-4e82-9d2a-041fe87ac78a")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfe10bb-6d16-4434-ad49-e9225eeffb4f")
 	)
 	(wire
 		(pts
@@ -1392,7 +1434,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 181.61 81.28 0)
+		(at 182.88 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1423,7 +1465,7 @@
 		)
 		(uuid "b800053f-98e4-4cb1-8864-210ba1c5735d")
 	)
-	(hierarchical_label "ALERT"
+	(hierarchical_label "ALERT0"
 		(shape output)
 		(at 137.16 114.3 180)
 		(effects
@@ -1433,6 +1475,94 @@
 			(justify right)
 		)
 		(uuid "cc82248a-ab77-4186-963e-e33a2de49759")
+	)
+	(hierarchical_label "ALERT1"
+		(shape output)
+		(at 134.62 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d40aee4d-3d2d-4c0b-b4b0-c687018655bb")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 140.97 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38e4086f-ebcc-49e6-a4a9-dec83294158e")
+		(property "Reference" "#PWR020"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8af5d1f-a882-4bc0-acb4-64b94107c5ea")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2212,6 +2342,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.97 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b7c41ab-5b61-4870-ab02-e44cea1fe28e")
+		(property "Reference" "R16"
+			(at 135.128 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.636 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.192 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fabdd3c0-d840-45ab-96c9-792ece3122a8")
+		)
+		(pin "2"
+			(uuid "ee610f10-05f4-45ea-9282-8d6d573565ba")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:AP22652W6-7")
 		(at 170.18 81.28 180)
 		(unit 1)
@@ -2775,10 +2986,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
