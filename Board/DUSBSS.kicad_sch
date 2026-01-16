@@ -939,6 +939,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Protection and Detection"
+		(exclude_from_sim no)
+		(at 152.146 155.194 0)
+		(effects
+			(font
+				(size 2.45 2.45)
+				(thickness 0.49)
+				(bold yes)
+			)
+		)
+		(uuid "4d84182d-424e-4860-b207-473ff54acb51")
+	)
 	(junction
 		(at 125.73 125.73)
 		(diameter 0)
@@ -1029,6 +1041,16 @@
 		)
 		(uuid "1450a67e-8f99-47ef-8ecf-6486665067b4")
 	)
+	(bus
+		(pts
+			(xy 193.04 64.77) (xy 193.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eacdbf9-19dd-4ee2-b04d-96de85545c08")
+	)
 	(wire
 		(pts
 			(xy 124.46 81.28) (xy 124.46 86.36)
@@ -1099,6 +1121,16 @@
 		)
 		(uuid "3a7577cd-6cfc-4dfc-a73e-26b274fbe407")
 	)
+	(bus
+		(pts
+			(xy 111.76 64.77) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1f96ef-9b59-4ff6-870f-29051e2674da")
+	)
 	(wire
 		(pts
 			(xy 124.46 102.87) (xy 153.67 102.87)
@@ -1158,6 +1190,16 @@
 			(type default)
 		)
 		(uuid "6a6d956b-9e8d-4eb4-81f0-abb4d36c715d")
+	)
+	(bus
+		(pts
+			(xy 111.76 157.48) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5e1f5b-8e7b-46eb-bb92-56e654ea9daf")
 	)
 	(wire
 		(pts
@@ -1309,6 +1351,16 @@
 		)
 		(uuid "cd2ff86e-895f-4758-9f1d-642dc4e72a48")
 	)
+	(bus
+		(pts
+			(xy 193.04 157.48) (xy 111.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd40b5e5-0261-42d2-bdbc-80d362a10a65")
+	)
 	(wire
 		(pts
 			(xy 125.73 134.62) (xy 132.08 134.62)
@@ -1443,6 +1495,17 @@
 		)
 		(uuid "2f3e6258-2b90-4bf6-9c71-11d7b4313a87")
 	)
+	(hierarchical_label "A10"
+		(shape bidirectional)
+		(at 186.69 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53a3e562-04a5-44a3-8b38-22f32751cd05")
+	)
 	(hierarchical_label "FAULT"
 		(shape output)
 		(at 124.46 76.2 180)
@@ -1453,6 +1516,39 @@
 			(justify right)
 		)
 		(uuid "7511de9c-65ed-4701-83eb-ed3f950ce7f6")
+	)
+	(hierarchical_label "A01"
+		(shape bidirectional)
+		(at 186.69 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91389ae2-db30-4e6a-bdec-47db6f2b5927")
+	)
+	(hierarchical_label "A11"
+		(shape bidirectional)
+		(at 186.69 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96f49d4d-cbe3-4b91-a3ae-baab823cd45b")
+	)
+	(hierarchical_label "A00"
+		(shape bidirectional)
+		(at 186.69 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97104283-d621-4426-af41-695a3d73acb5")
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
@@ -1591,7 +1687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 76.962 90)
 			(effects
 				(font
@@ -1631,15 +1727,15 @@
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
 					(reference "R12")
 					(unit 1)
 				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
+					(reference "R15")
+					(unit 1)
+				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1678,7 +1774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.732 110.49 90)
 			(effects
 				(font
@@ -1718,15 +1814,15 @@
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
 					(reference "R13")
 					(unit 1)
 				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
+					(reference "R16")
+					(unit 1)
+				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1748,7 +1844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4250c42f-b5c9-4563-9d18-d8dc3f7d20e0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 138.43 128.27 0)
 			(effects
 				(font
@@ -1798,7 +1894,7 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
@@ -1850,7 +1946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 88.9 0)
 			(effects
 				(font
@@ -1937,7 +2033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.2352 93.98 0)
 			(effects
 				(font
@@ -2024,7 +2120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.952 130.81 90)
 			(effects
 				(font
@@ -2064,11 +2160,11 @@
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
@@ -2350,7 +2446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7c41ab-5b61-4870-ab02-e44cea1fe28e")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 135.128 146.05 0)
 			(effects
 				(font
@@ -2368,7 +2464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.192 147.32 90)
 			(effects
 				(font
@@ -2404,19 +2500,19 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
 					(reference "R19")
 					(unit 1)
 				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
+					(reference "R22")
+					(unit 1)
+				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2449,7 +2545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC_52W6-7_DIO"
+		(property "Footprint" "Library:SOIC_52W6-7_DIO"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -2532,7 +2628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfa7858a-fbfb-4755-9057-57f3e813e6e3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -2582,19 +2678,19 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7e739d2-072f-4037-9498-5c567f346e5f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -2665,7 +2761,7 @@
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e"
@@ -2857,6 +2953,26 @@
 				(justify left)
 			)
 		)
+		(pin "A1" bidirectional
+			(at 186.69 125.73 0)
+			(uuid "4e7bfbcb-1239-4cee-b36c-73604126d1ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A0" bidirectional
+			(at 186.69 128.27 0)
+			(uuid "9758faec-0ef9-41bb-ac18-183431400dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58"
@@ -2962,6 +3078,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "A1" bidirectional
+			(at 186.69 97.79 0)
+			(uuid "53d94d7b-e895-44fa-903b-366ceffeedf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A0" bidirectional
+			(at 186.69 100.33 0)
+			(uuid "dec2b73d-789c-4870-b7b4-c17e016540b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
