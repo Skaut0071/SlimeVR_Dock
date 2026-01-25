@@ -1490,9 +1490,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Conector and OverCharge "
+	(text "Conector and Current Mesure"
 		(exclude_from_sim no)
-		(at 155.702 132.08 0)
+		(at 152.146 132.334 0)
 		(effects
 			(font
 				(size 2.45 2.45)

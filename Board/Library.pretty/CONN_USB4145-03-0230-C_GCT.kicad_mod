@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CONN_USB4145-03-0230-C_GCT"
-		(at 0 0 0)
+		(at 0.05 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "29621ff1-0557-45fb-8700-f49fac27e10e")
@@ -143,16 +143,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "0a69d69f-6039-4eb8-ac83-14bf58b8e54a")
-	)
-	(fp_line
-		(start 3.8984 0)
-		(end 4.1016 0)
-		(stroke
-			(width 0.6604)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e6078217-6947-4464-8f92-339c5e51c0e8")
 	)
 	(fp_line
 		(start -5.0541 -2.2301)
@@ -566,7 +556,7 @@
 		(uuid "44c0931c-dddc-4b74-86a1-107396ebedb5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -0.05 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c5b44f65-faeb-4768-ad94-3d3ed34c10b3")
@@ -590,6 +580,27 @@
 		(drill 0.6604)
 		(layers "*.Cu" "*.Mask")
 		(uuid "7c1252ef-ea83-4ee3-970f-d2542c961811")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.95 0)
+		(size 0.6604 0.6604)
+		(drill 0.6604)
+		(layers "*.Cu" "*.Mask")
+		(uuid "888ee9ae-604d-40ce-b319-8d5b0dc65384")
+	)
+	(pad "" np_thru_hole circle
+		(at 4 0)
+		(size 0.6604 0.6604)
+		(drill 0.6604)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c24a6ca3-94cf-429f-a9b4-a8d0c5d592db")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.05 0)
+		(size 0.6604 0.6604)
+		(drill 0.6604)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cca70aae-b481-4c1a-854f-c7051a334fd4")
 	)
 	(pad "" np_thru_hole circle
 		(at 4.1016 0)
