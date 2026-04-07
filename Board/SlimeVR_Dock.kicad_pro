@@ -685,6 +685,10 @@
     [
       "dcabbe47-460f-4120-827c-7d4d07bf229a",
       "USB_C0"
+    ],
+    [
+      "9328ec89-1532-462d-95ef-1baa495e4b70",
+      "StepDown"
     ]
   ],
   "text_variables": {}
