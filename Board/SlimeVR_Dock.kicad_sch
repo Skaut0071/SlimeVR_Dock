@@ -3857,8 +3857,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 4.826 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3866,8 +3866,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
+			(property "Value" "NDT452AP"
+				(at 5.08 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -4119,7 +4119,25 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4137,7 +4155,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13280,7 +13298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3401A"
+		(property "Value" "NDT452AP"
 			(at 86.36 102.616 0)
 			(effects
 				(font
@@ -13289,7 +13307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 86.36 104.775 0)
 			(effects
 				(font
@@ -13327,6 +13345,9 @@
 		)
 		(pin "2"
 			(uuid "6196acd6-0b79-4e83-9a6e-e35a6e1f0f0a")
+		)
+		(pin "4"
+			(uuid "06b75be6-cb8a-48c1-9e8b-16a2d4563777")
 		)
 		(instances
 			(project ""
