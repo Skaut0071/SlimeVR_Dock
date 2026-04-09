@@ -671,7 +671,7 @@
 		(uuid "79d63e72-51bd-4052-8398-831f869d146d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Lenovo/Downloads/MP2315GJ_Z/TSOT23-8_MPS.step"
+	(model "${KIPRJMOD}/Library.pretty/TSOT23-8_MPS.step"
 		(offset
 			(xyz 0 0 0)
 		)
