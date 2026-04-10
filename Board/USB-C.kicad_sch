@@ -2038,7 +2038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:CONN_USB4145-03-0230-C_GCT"
+		(property "Footprint" "Library:YTC-TC16S-128"
 			(at 127 99.06 0)
 			(effects
 				(font
