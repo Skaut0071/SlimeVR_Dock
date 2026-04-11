@@ -742,7 +742,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Grep/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
