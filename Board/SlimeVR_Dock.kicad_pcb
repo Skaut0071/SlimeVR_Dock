@@ -1337,6 +1337,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ece09478-49a6-4b33-a394-d104a3555113")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/20608bd6-1177-4976-ba2c-965ba6250d58/dcabbe47-460f-4120-827c-7d4d07bf229a/12cfa2c7-d47b-4acc-9222-dcc953719a3c")
 		(sheetname "/Dual_USB-C_SubSchema0/USB_C0/")
@@ -1936,6 +1949,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea0828ed-5294-4d9e-a383-0e1bd195e9a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/21559adc-22f0-4da5-bb39-da22b4a6076e/dcabbe47-460f-4120-827c-7d4d07bf229a/12cfa2c7-d47b-4acc-9222-dcc953719a3c")
 		(sheetname "/Dual_USB-C_SubSchema2/USB_C0/")
@@ -2185,6 +2211,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C86534"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aa44d16-356c-4b33-a6be-d8c619023139")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2598,6 +2637,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2909f73c-5200-4b44-996b-53f735c00f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f32095-4aeb-40e7-9ded-75c67716b3f4")
 			(effects
 				(font
 					(size 1 1)
@@ -5402,6 +5454,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5178539"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f5b3a38-4387-431a-9641-a0e9e620e9a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/21f57203-d0b5-4536-9f1a-203a5303a53d")
 		(sheetname "/")
@@ -5765,6 +5830,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "531b954b-7d16-4e4c-9cba-346e15f3b33a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea9a6c53-d674-4954-8e03-f4a4b2e19cf9")
 			(effects
 				(font
 					(size 1 1)
@@ -6219,6 +6297,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e86bf490-becd-447e-95b2-1b3404193f52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "becc8538-0850-4585-89cc-4577ae829576")
 			(effects
 				(font
 					(size 1 1)
@@ -6968,6 +7059,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3519bf93-f7be-4e08-894b-288fec444565")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a/12cfa2c7-d47b-4acc-9222-dcc953719a3c")
 		(sheetname "/Dual_USB-C_SubSchema1/USB_C0/")
@@ -7482,6 +7586,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19bc71d5-f0a5-4337-aa2c-9bf16744fd30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aee0b543-cfce-4587-ad45-76e7aa096b66")
 			(effects
 				(font
 					(size 1 1)
@@ -8042,6 +8159,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C274614"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e26dda59-1477-4396-a59e-bac48cf78e98")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8969,6 +9099,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2927282"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5badd470-7abd-4be5-87e3-8d7557c58b2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/2b86b0ae-2209-4a30-98e5-d26e75080e9f/dcabbe47-460f-4120-827c-7d4d07bf229a/12cfa2c7-d47b-4acc-9222-dcc953719a3c")
 		(sheetname "/Dual_USB-C_SubSchema3/USB_C0/")
@@ -9218,6 +9361,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C970725"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79446152-8027-4e10-aa28-ee35371181ba")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10221,6 +10377,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C49851"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8b6df6c-e926-43b8-b20b-121556ee7445")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "VSSOP*3x3mm*P0.5mm*")
 		(path "/20608bd6-1177-4976-ba2c-965ba6250d58/dcabbe47-460f-4120-827c-7d4d07bf229a/0d4c62e9-e3fc-4111-b8c5-5dbb4f853391")
 		(sheetname "/Dual_USB-C_SubSchema0/USB_C0/")
@@ -10624,6 +10794,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C49851"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2f3835a-f5de-4195-be7a-6e6dcb773022")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11646,6 +11830,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2934560"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4cf1d44a-1a46-47df-a74d-5bd0cc779776")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12971,6 +13169,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C111644"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5623757-ae2d-4250-8058-49967fedcde2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -14888,6 +15100,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C111644"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92aa27d5-cd66-4d2d-b413-e88ad62caf69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/2b86b0ae-2209-4a30-98e5-d26e75080e9f/84eded0b-e3f5-4375-b7f3-38bbf09cb7f5")
 		(sheetname "/Dual_USB-C_SubSchema3/")
@@ -15221,6 +15447,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C49851"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "552e5e28-e996-4615-9782-2955b7f12d8d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -17266,6 +17506,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C49851"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5740bcb0-3bd0-43ae-9412-ccd2978e33c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "VSSOP*3x3mm*P0.5mm*")
 		(path "/2b86b0ae-2209-4a30-98e5-d26e75080e9f/dcabbe47-460f-4120-827c-7d4d07bf229a/0d4c62e9-e3fc-4111-b8c5-5dbb4f853391")
 		(sheetname "/Dual_USB-C_SubSchema3/USB_C0/")
@@ -18077,6 +18331,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5613"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ded034b-c1e8-46b8-87e1-484f05fcd68e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18959,6 +19227,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2158038"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "275bb281-73e4-4302-8dc6-747b3d478cf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOIC_52W6-7_DIO SOIC_52W6-7_DIO-M SOIC_52W6-7_DIO-L")
 		(path "/20608bd6-1177-4976-ba2c-965ba6250d58/bacc80af-9c8f-49b0-8625-e852cb62419e")
 		(sheetname "/Dual_USB-C_SubSchema0/")
@@ -19773,6 +20055,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C49851"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d243da9-30ea-405a-b8c6-cde3b552e314")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "VSSOP*3x3mm*P0.5mm*")
 		(path "/c6b53444-adaa-455c-990e-02e7d6acd668/aa530802-575e-4709-88a2-62d0301eba9c/0d4c62e9-e3fc-4111-b8c5-5dbb4f853391")
 		(sheetname "/Dual_USB-C_SubSchema1/USB_C1/")
@@ -20181,6 +20477,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C49851"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9100b8a-269c-4bdb-9026-fb4cc118741d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "VSSOP*3x3mm*P0.5mm*")
 		(path "/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a/0d4c62e9-e3fc-4111-b8c5-5dbb4f853391")
 		(sheetname "/Dual_USB-C_SubSchema1/USB_C0/")
@@ -20584,6 +20894,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3abd49b-3f34-4bab-abd5-2f5e544cfa57")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -21466,6 +21790,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2158038"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e5a6c8a-ad78-4952-9e14-3ec17758a3ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOIC_52W6-7_DIO SOIC_52W6-7_DIO-M SOIC_52W6-7_DIO-L")
 		(path "/c6b53444-adaa-455c-990e-02e7d6acd668/bacc80af-9c8f-49b0-8625-e852cb62419e")
 		(sheetname "/Dual_USB-C_SubSchema1/")
@@ -22276,6 +22614,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2158038"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09104954-a98d-4434-b6a6-b92acbb57873")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23498,6 +23850,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C49851"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cec2e8c9-c16e-4d40-92c3-d8b671128d80")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -26155,6 +26521,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5563ebdf-9eda-44b7-a45d-bbc924b4cd09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*")
 		(path "/bd27807b-f794-4f39-9615-974fec9e2ba2")
 		(sheetname "/")
@@ -27031,6 +27411,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C39828"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f1196795-3354-4129-96f9-f291df2bc7cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/33dbff0f-6d60-4c50-bf13-f456e2185084")
 		(sheetname "/")
@@ -27777,6 +28171,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C111644"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "65683dad-b2e9-45da-b7ea-1a93ae2f2ede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c6b53444-adaa-455c-990e-02e7d6acd668/84eded0b-e3f5-4375-b7f3-38bbf09cb7f5")
 		(sheetname "/Dual_USB-C_SubSchema1/")
@@ -28110,6 +28518,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C49851"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "afe0fcf3-e21c-4bd7-bed0-f54c30875372")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -28723,6 +29145,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2158038"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58494e2d-396a-4788-a818-27ffe40352ba")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29740,6 +30176,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C111644"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7a3fb0f-378f-464c-b48e-08da7cf7cfd3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

@@ -9931,6 +9931,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5178539"
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A8"
 			(uuid "2ad5e3e2-9b24-48ac-8301-b09dd85d88ac")
 		)
@@ -10307,6 +10316,15 @@
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
 			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C39828"
+			(at 240.03 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,6 +11057,15 @@
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
 			(at 245.745 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2934560"
+			(at 246.38 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12320,6 +12347,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C970725"
+			(at 81.28 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "2b26a210-e1d0-4335-95d7-1c3a8551a1de")
 		)
@@ -12557,6 +12593,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 189.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "37655ff1-9aab-476c-ab20-d637867ac2e6")
 		)
@@ -12658,6 +12703,15 @@
 			)
 		)
 		(property "Description" "1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 177.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86534"
 			(at 177.8 140.97 0)
 			(effects
 				(font
@@ -13200,6 +13254,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "d87bee29-8a2f-41a3-8d45-5677bf3557bb")
 		)
@@ -13373,6 +13436,15 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274614"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -13849,6 +13921,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
 			(at 157.48 99.06 0)
 			(effects
 				(font
