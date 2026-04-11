@@ -72,60 +72,60 @@ code{font-family:var(--font-mono);font-size:11px;background:var(--color-backgrou
 </style>
 
 <div class="tabs">
-  <button class="tab active" onclick="switchTab('pins')">Piny ESP32-C3</button>
-  <button class="tab" onclick="switchTab('read')">Čtení — 74HC165</button>
-  <button class="tab" onclick="switchTab('write')">Zápis — 74HC595</button>
-  <button class="tab" onclick="switchTab('overview')">Přehled portů</button>
+  <button class="tab active" onclick="switchTab('pins')">ESP32-C3 Pins</button>
+  <button class="tab" onclick="switchTab('read')">Read — 74HC165</button>
+  <button class="tab" onclick="switchTab('write')">Write — 74HC595</button>
+  <button class="tab" onclick="switchTab('overview')">Port overview</button>
 </div>
 
 <div class="panel active" id="panel-pins">
-  <h2>ESP32-C3-WROOM-02 — pinout a funkce</h2>
-  <p class="sub">Přehled GPIO pinů dle schématu MCU (U1)</p>
+  <h2>ESP32-C3-WROOM-02 — pinout and functions</h2>
+  <p class="sub">GPIO pin summary based on MCU schematic (U1)</p>
   <table>
-  <thead><tr><th>GPIO</th><th>Net</th><th>Funkce / popis</th><th>Typ</th><th>Poznámky</th></tr></thead>
+  <thead><tr><th>GPIO</th><th>Net</th><th>Function / description</th><th>Type</th><th>Notes</th></tr></thead>
   <tbody>
-  <tr><td>IO20 (RXD)</td><td><code>RX</code></td><td>UART0 příjem dat</td><td><span class="badge b-uart">UART</span></td><td>J1_Monitor1 pin 3 — sériový monitor</td></tr>
-  <tr><td>IO21 (TXD)</td><td><code>TX</code></td><td>UART0 odesílání dat</td><td><span class="badge b-uart">UART</span></td><td>J1_Monitor1 pin 2 — sériový monitor</td></tr>
-  <tr><td>IO18</td><td><code>D−</code></td><td>USB D− (programování)</td><td><span class="badge b-usb">USB</span></td><td>J1_Prog1 pin 3 — flash přes USB</td></tr>
-  <tr><td>IO19</td><td><code>D+</code></td><td>USB D+ (programování)</td><td><span class="badge b-usb">USB</span></td><td>J1_Prog1 pin 2 — flash přes USB</td></tr>
-  <tr><td>IO4</td><td><code>SCL</code></td><td>I2C clock</td><td><span class="badge b-i2c">I2C</span></td><td>Pull-up R23 4,7 kΩ. Sdílená sběrnice: DUSBSS ×4, INA226, TC74</td></tr>
-  <tr><td>IO5</td><td><code>SDA</code></td><td>I2C data</td><td><span class="badge b-i2c">I2C</span></td><td>Pull-up R24 4,7 kΩ. Sdílená sběrnice</td></tr>
-  <tr><td>IO3</td><td><code>CLK</code></td><td>Shift register clock</td><td><span class="badge b-spi">SPI/SR</span></td><td>Sdíleno 74HC165 (čtení) + 74HC595 (zápis)</td></tr>
-  <tr><td>IO8</td><td><code>GET</code></td><td>Shift register latch / load</td><td><span class="badge b-spi">SPI/SR</span></td><td>Aktivace přenosu dat (PL / RCLK)</td></tr>
-  <tr><td>IO17</td><td><code>Data_Out</code></td><td>MISO — data ze shift registrů</td><td><span class="badge b-spi">SPI/SR</span></td><td>Z 74HC165 U18 QH′ — stav FAULT, ALERT, CC</td></tr>
-  <tr><td>IO16</td><td><code>Data_In</code></td><td>MOSI — data do shift registru</td><td><span class="badge b-spi">SPI/SR</span></td><td>Do 74HC595 U19 SER — výstupy EN0–EN3, BZ</td></tr>
-  <tr><td>IO6</td><td><code>PWM</code></td><td>PWM výstup pro ventilátor</td><td><span class="badge b-gpio">GPIO/PWM</span></td><td>J1Fan1 pin 4</td></tr>
-  <tr><td>IO7</td><td><code>TACH</code></td><td>Tachometr ventilátoru (vstup)</td><td><span class="badge b-gpio">GPIO</span></td><td>J1Fan1 pin 3 — pull-up R42 10 kΩ</td></tr>
+  <tr><td>IO20 (RXD)</td><td><code>RX</code></td><td>UART0 data receive</td><td><span class="badge b-uart">UART</span></td><td>J1_Monitor1 pin 3 — serial monitor</td></tr>
+  <tr><td>IO21 (TXD)</td><td><code>TX</code></td><td>UART0 data transmit</td><td><span class="badge b-uart">UART</span></td><td>J1_Monitor1 pin 2 — serial monitor</td></tr>
+  <tr><td>IO18</td><td><code>D−</code></td><td>USB D− (programming)</td><td><span class="badge b-usb">USB</span></td><td>J1_Prog1 pin 3 — flash via USB</td></tr>
+  <tr><td>IO19</td><td><code>D+</code></td><td>USB D+ (programming)</td><td><span class="badge b-usb">USB</span></td><td>J1_Prog1 pin 2 — flash via USB</td></tr>
+  <tr><td>IO4</td><td><code>SCL</code></td><td>I2C clock</td><td><span class="badge b-i2c">I2C</span></td><td>Pull-up R23 4.7 kΩ. Shared bus: DUSBSS ×4, INA226, TC74</td></tr>
+  <tr><td>IO5</td><td><code>SDA</code></td><td>I2C data</td><td><span class="badge b-i2c">I2C</span></td><td>Pull-up R24 4,7 kΩ. Shared bus</td></tr>
+  <tr><td>IO3</td><td><code>CLK</code></td><td>Shift register clock</td><td><span class="badge b-spi">SPI/SR</span></td><td>Shared with 74HC165 (read) + 74HC595 (write)</td></tr>
+  <tr><td>IO8</td><td><code>GET</code></td><td>Shift register latch / load</td><td><span class="badge b-spi">SPI/SR</span></td><td>Data transfer latch pulse (PL / RCLK)</td></tr>
+  <tr><td>IO17</td><td><code>Data_Out</code></td><td>MISO — data from shift registers</td><td><span class="badge b-spi">SPI/SR</span></td><td>From 74HC165 U18 QH′ — FAULT, ALERT, CC status</td></tr>
+  <tr><td>IO16</td><td><code>Data_In</code></td><td>MOSI — data to shift register</td><td><span class="badge b-spi">SPI/SR</span></td><td>To 74HC595 U19 SER — outputs EN0–EN3, BZ</td></tr>
+  <tr><td>IO6</td><td><code>PWM</code></td><td>PWM output for fan</td><td><span class="badge b-gpio">GPIO/PWM</span></td><td>J1Fan1 pin 4</td></tr>
+  <tr><td>IO7</td><td><code>TACH</code></td><td>Fan tachometer (input)</td><td><span class="badge b-gpio">GPIO</span></td><td>J1Fan1 pin 3 — pull-up R42 10 kΩ</td></tr>
   <tr><td>IO10</td><td><code>Boot</code></td><td>Boot mode</td><td><span class="badge b-gpio">GPIO</span></td><td>J1_Control1 pin 1, pull-up R18 10 kΩ. LOW = download mode</td></tr>
   <tr><td>IO2</td><td><code>Enable</code></td><td>EN pin — reset/enable</td><td><span class="badge b-gpio">GPIO</span></td><td>J1_Control1 pin 3, pull-up R17 10 kΩ</td></tr>
-  <tr><td>3V3 (pin 1)</td><td><code>+3V3</code></td><td>Napájení MCU</td><td><span class="badge b-pwr">PWR</span></td><td>Z XC6220B331MR (U3) — 3,3 V LDO</td></tr>
-  <tr><td>GND (pin 9)</td><td><code>Earth</code></td><td>Zem</td><td><span class="badge b-pwr">PWR</span></td><td>Společná zem</td></tr>
+  <tr><td>3V3 (pin 1)</td><td><code>+3V3</code></td><td>MCU power</td><td><span class="badge b-pwr">PWR</span></td><td>From XC6220B331MR (U3) — 3.3 V LDO</td></tr>
+  <tr><td>GND (pin 9)</td><td><code>Earth</code></td><td>Ground</td><td><span class="badge b-pwr">PWR</span></td><td>Common ground</td></tr>
   </tbody>
   </table>
-  <p style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">IO1, IO9, IO13 označeny × (NC). IO0, IO11–IO15 nejsou ve schématu použity.</p>
+  <p style="font-size:11px;color:var(--color-text-tertiary);margin-top:8px">IO1, IO9, IO13 are marked × (NC). IO0 and IO11–IO15 are not used in the schematic.</p>
 </div>
 
 <div class="panel" id="panel-read">
-  <h2>Simulátor čtení — 74HC165 (U17 + U18)</h2>
-  <p class="sub">Klikni na bity a nastav simulovaný stav vstupů. U17 = porty 0+1 (bity 15–8), U18 = porty 2+3 (bity 7–0).</p>
+  <h2>Read simulator — 74HC165 (U17 + U18)</h2>
+  <p class="sub">Click bits to set simulated input states. U17 = ports 0+1 (bits 15–8), U18 = ports 2+3 (bits 7–0).</p>
   <div class="presets">
-    <span style="font-size:11px;color:var(--color-text-tertiary);padding:4px 2px">Předvolby:</span>
-    <button class="preset-btn" onclick="applyR([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])">Vše v klidu</button>
-    <button class="preset-btn" onclick="applyR([0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1])">4 kabely připojeny</button>
-    <button class="preset-btn" onclick="applyR([1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1])">Fault na portu 0</button>
-    <button class="preset-btn" onclick="applyR([0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0])">Alerty 00+20</button>
+    <span style="font-size:11px;color:var(--color-text-tertiary);padding:4px 2px">Presets:</span>
+    <button class="preset-btn" onclick="applyR([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])">All idle</button>
+    <button class="preset-btn" onclick="applyR([0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1])">4 cables connected</button>
+    <button class="preset-btn" onclick="applyR([1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1])">Fault on port 0</button>
+    <button class="preset-btn" onclick="applyR([0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0])">Alerts 00+20</button>
   </div>
   <div class="legend">
     <div class="leg"><div class="leg-dot" style="background:#FCEBEB;border:1px solid #A32D2D"></div>Fault</div>
     <div class="leg"><div class="leg-dot" style="background:#FAEEDA;border:1px solid #854F0B"></div>Alert</div>
-    <div class="leg"><div class="leg-dot" style="background:#E6F1FB;border:1px solid #185FA5"></div>CC připojeno</div>
+    <div class="leg"><div class="leg-dot" style="background:#E6F1FB;border:1px solid #185FA5"></div>CC connected</div>
   </div>
   <div class="chip-block">
-    <div class="chip-title">U17 — 74HC165 &nbsp;|&nbsp; IO17=Data_Out &nbsp;IO3=CLK &nbsp;IO8=GET(PL) &nbsp;|&nbsp; porty 0+1, bity 15–8, přijdou první</div>
+    <div class="chip-title">U17 — 74HC165 &nbsp;|&nbsp; IO17=Data_Out &nbsp;IO3=CLK &nbsp;IO8=GET(PL) &nbsp;|&nbsp; ports 0+1, bits 15–8, shifted first</div>
     <div class="bit-grid" id="read-bits-u17"></div>
   </div>
   <div class="chip-block">
-    <div class="chip-title">U18 — 74HC165 &nbsp;|&nbsp; řetězen za U17 &nbsp;|&nbsp; porty 2+3, bity 7–0, přijdou druhé</div>
+    <div class="chip-title">U18 — 74HC165 &nbsp;|&nbsp; cascaded after U17 &nbsp;|&nbsp; ports 2+3, bits 7–0, shifted second</div>
     <div class="bit-grid" id="read-bits-u18"></div>
   </div>
   <div class="result-row">
@@ -140,69 +140,69 @@ code{font-family:var(--font-mono);font-size:11px;background:var(--color-backgrou
 </div>
 
 <div class="panel" id="panel-write">
-  <h2>Simulátor zápisu — 74HC595 (U19)</h2>
-  <p class="sub">Klikni na bity a sestav byte k odeslání. Výstupy se fyzicky přepnou až po pulzu GET.</p>
+  <h2>Write simulator — 74HC595 (U19)</h2>
+  <p class="sub">Click bits to build the output byte. Physical outputs switch only after a GET pulse.</p>
   <div class="presets">
-    <span style="font-size:11px;color:var(--color-text-tertiary);padding:4px 2px">Předvolby:</span>
-    <button class="preset-btn" onclick="applyW([0,0,0,0,0,0,0,0])">Vše vypnuto</button>
-    <button class="preset-btn" onclick="applyW([1,1,1,1,0,0,0,0])">Všechny porty ON</button>
-    <button class="preset-btn" onclick="applyW([1,0,1,0,0,0,0,0])">Porty 0+2 ON</button>
-    <button class="preset-btn" onclick="applyW([1,1,1,1,1,0,0,0])">Všechny + bzučák</button>
+    <span style="font-size:11px;color:var(--color-text-tertiary);padding:4px 2px">Presets:</span>
+    <button class="preset-btn" onclick="applyW([0,0,0,0,0,0,0,0])">All off</button>
+    <button class="preset-btn" onclick="applyW([1,1,1,1,0,0,0,0])">All ports ON</button>
+    <button class="preset-btn" onclick="applyW([1,0,1,0,0,0,0,0])">Ports 0+2 ON</button>
+    <button class="preset-btn" onclick="applyW([1,1,1,1,1,0,0,0])">All + buzzer</button>
   </div>
   <div class="chip-block">
-    <div class="chip-title">U19 — 74HC595 &nbsp;|&nbsp; IO16=Data_In(SER) &nbsp;IO3=CLK(SRCLK) &nbsp;IO8=GET(RCLK) &nbsp;|&nbsp; bit 7=QA/EN0 → bit 0=QH, MSB první</div>
+    <div class="chip-title">U19 — 74HC595 &nbsp;|&nbsp; IO16=Data_In(SER) &nbsp;IO3=CLK(SRCLK) &nbsp;IO8=GET(RCLK) &nbsp;|&nbsp; bit 7=QA/EN0 → bit 0=QH, MSB first</div>
     <div class="bit-grid" id="write-bits"></div>
   </div>
   <div class="result-row">
     <div class="rbox">HEX <span id="w-hex">0x00</span></div>
     <div class="rbox">BIN <span id="w-bin">0b00000000</span></div>
     <div class="rbox">DEC <span id="w-dec">0</span></div>
-    <div class="rbox" style="flex:1" id="w-desc">Vše vypnuto</div>
+    <div class="rbox" style="flex:1" id="w-desc">All off</div>
   </div>
   <table style="margin-top:12px">
-    <thead><tr><th>Bit</th><th>Výstup</th><th>Net</th><th>Cíl</th><th>Stav</th></tr></thead>
+    <thead><tr><th>Bit</th><th>Output</th><th>Net</th><th>Target</th><th>State</th></tr></thead>
     <tbody id="write-table"></tbody>
   </table>
 </div>
 
 <div class="panel" id="panel-overview">
-  <h2>Přehled stavu portů</h2>
-  <p class="sub">Kombinovaný pohled z obou registrů — nastavuj bity v záložkách Čtení a Zápis.</p>
+  <h2>Port status overview</h2>
+  <p class="sub">Combined view from both registers — set bits in the Read and Write tabs.</p>
   <div class="status-grid" id="port-grid"></div>
   <table style="margin-top:14px">
-    <thead><tr><th>Signál</th><th>Hodnota</th><th>Registr</th><th>Popis</th></tr></thead>
+    <thead><tr><th>Signal</th><th>Value</th><th>Register</th><th>Description</th></tr></thead>
     <tbody id="overview-table"></tbody>
   </table>
 </div>
 
 <script>
 const RD=[
-  {net:'Fault0',port:0,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'Fault0',port:0,type:'fault',desc:'Overcurrent / short circuit'},
   {net:'Alert00',port:0,type:'alert',desc:'Alert 0 (I2C)'},
   {net:'Alert01',port:0,type:'alert',desc:'Alert 1 (I2C)'},
-  {net:'CC0',port:0,type:'cc',desc:'Kabel připojen'},
-  {net:'Fault1',port:1,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'CC0',port:0,type:'cc',desc:'Cable connected'},
+  {net:'Fault1',port:1,type:'fault',desc:'Overcurrent / short circuit'},
   {net:'Alert10',port:1,type:'alert',desc:'Alert 0 (I2C)'},
   {net:'Alert11',port:1,type:'alert',desc:'Alert 1 (I2C)'},
-  {net:'CC1',port:1,type:'cc',desc:'Kabel připojen'},
-  {net:'Fault2',port:2,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'CC1',port:1,type:'cc',desc:'Cable connected'},
+  {net:'Fault2',port:2,type:'fault',desc:'Overcurrent / short circuit'},
   {net:'Alert20',port:2,type:'alert',desc:'Alert 0 (I2C)'},
   {net:'Alert21',port:2,type:'alert',desc:'Alert 1 (I2C)'},
-  {net:'CC2',port:2,type:'cc',desc:'Kabel připojen'},
-  {net:'Fault3',port:3,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'CC2',port:2,type:'cc',desc:'Cable connected'},
+  {net:'Fault3',port:3,type:'fault',desc:'Overcurrent / short circuit'},
   {net:'Alert30',port:3,type:'alert',desc:'Alert 0 (I2C)'},
   {net:'Alert31',port:3,type:'alert',desc:'Alert 1 (I2C)'},
-  {net:'CC3',port:3,type:'cc',desc:'Kabel připojen'},
+  {net:'CC3',port:3,type:'cc',desc:'Cable connected'},
 ];
 const WD=[
-  {out:'QA',net:'EN0',target:'DUSBSS port 0',desc:'Napájení port 0'},
-  {out:'QB',net:'EN1',target:'DUSBSS port 1',desc:'Napájení port 1'},
-  {out:'QC',net:'EN2',target:'DUSBSS port 2',desc:'Napájení port 2'},
-  {out:'QD',net:'EN3',target:'DUSBSS port 3',desc:'Napájení port 3'},
-  {out:'QE',net:'BZ',target:'Buzzer BZ1',desc:'Bzučák'},
-  {out:'QF',net:'—',target:'NC',desc:'Nevyužito'},
-  {out:'QG',net:'—',target:'NC',desc:'Nevyužito'},
-  {out:'QH',net:'—',target:'NC',desc:'Nevyužito'},
+  {out:'QA',net:'EN0',target:'DUSBSS port 0',desc:'Port 0 power'},
+  {out:'QB',net:'EN1',target:'DUSBSS port 1',desc:'Port 1 power'},
+  {out:'QC',net:'EN2',target:'DUSBSS port 2',desc:'Port 2 power'},
+  {out:'QD',net:'EN3',target:'DUSBSS port 3',desc:'Port 3 power'},
+  {out:'QE',net:'BZ',target:'Buzzer BZ1',desc:'Buzzer'},
+  {out:'QF',net:'—',target:'NC',desc:'Unused'},
+  {out:'QG',net:'—',target:'NC',desc:'Unused'},
+  {out:'QH',net:'—',target:'NC',desc:'Unused'},
 ];
 
 let rb=new Array(16).fill(0);
@@ -228,11 +228,11 @@ function renderRead(){
   const tb=document.getElementById('read-table');
   tb.innerHTML='';
   const stMap={fault:'b-fault',alert:'b-alert',cc:'b-cc'};
-  const onLbl={fault:'FAULT',alert:'ALERT',cc:'PŘIPOJENO'};
+  const onLbl={fault:'FAULT',alert:'ALERT',cc:'CONNECTED'};
   RD.forEach((d,i)=>{
     const tr=document.createElement('tr');
     if(rb[i])tr.className='hl';
-    const st=rb[i]?`<span class="badge ${stMap[d.type]}">${onLbl[d.type]}</span>`:'<span class="badge b-off">0 — klid</span>';
+    const st=rb[i]?`<span class="badge ${stMap[d.type]}">${onLbl[d.type]}</span>`:'<span class="badge b-off">0 — idle</span>';
     tr.innerHTML=`<td>${15-i}</td><td><code>${d.net}</code></td><td>Port ${d.port}</td><td>${d.type}</td><td>${st}</td>`;
     tb.appendChild(tr);
   });
@@ -255,13 +255,13 @@ function renderWrite(){
   document.getElementById('w-dec').textContent=val;
   const active=WD.filter((_,i)=>wb[i]&&WD[i].net!=='—').map(d=>d.desc);
   const desc=document.getElementById('w-desc');
-  desc.innerHTML=active.length?'Aktivní: <span style="font-family:var(--font-mono);font-weight:500;color:var(--color-text-primary)">'+active.join(', ')+'</span>':'Vše vypnuto';
+  desc.innerHTML=active.length?'Active: <span style="font-family:var(--font-mono);font-weight:500;color:var(--color-text-primary)">'+active.join(', ')+'</span>':'All off';
   const tb=document.getElementById('write-table');
   tb.innerHTML='';
   WD.forEach((d,i)=>{
     const tr=document.createElement('tr');
     if(wb[i]&&d.net!=='—')tr.className='hl';
-    const st=wb[i]?'<span class="badge b-on">1 — zapnuto</span>':'<span class="badge b-off">0 — vypnuto</span>';
+    const st=wb[i]?'<span class="badge b-on">1 — on</span>':'<span class="badge b-off">0 — off</span>';
     tr.innerHTML=`<td>b${7-i} (${d.out})</td><td><code>${d.net}</code></td><td>${d.target}</td><td>${d.desc}</td><td>${st}</td>`;
     tb.appendChild(tr);
   });
@@ -279,16 +279,16 @@ function renderOverview(){
     else if(en&&cc)cls+=' active';
     card.className=cls;
     card.innerHTML=`<div class="port-name">Port ${p}</div>
-<div class="port-stat"><b>Napájení:</b> ${en?'<span style="color:#27500A">ON</span>':'<span style="color:#5F5E5A">OFF</span>'}</div>
-<div class="port-stat"><b>Kabel:</b> ${cc?'<span style="color:#0C447C">Připojen</span>':'—'}</div>
-<div class="port-stat"><b>Fault:</b> ${fault?'<span style="color:#791F1F">CHYBA</span>':'OK'}</div>
+<div class="port-stat"><b>Power:</b> ${en?'<span style="color:#27500A">ON</span>':'<span style="color:#5F5E5A">OFF</span>'}</div>
+<div class="port-stat"><b>Cable:</b> ${cc?'<span style="color:#0C447C">Connected</span>':'—'}</div>
+<div class="port-stat"><b>Fault:</b> ${fault?'<span style="color:#791F1F">FAULT</span>':'OK'}</div>
 <div class="port-stat"><b>Alert0/1:</b> ${a0?'<span style="color:#633806">!</span>':'—'} / ${a1?'<span style="color:#633806">!</span>':'—'}</div>`;
     pg.appendChild(card);
   }
   const tb=document.getElementById('overview-table');
   tb.innerHTML='';
-  [...RD.map((d,i)=>({sig:d.net,val:rb[i],reg:'74HC165 (čtení)',desc:d.desc+' — port '+d.port})),
-   ...WD.map((d,i)=>({sig:d.net,val:wb[i],reg:'74HC595 (zápis)',desc:d.desc}))
+  [...RD.map((d,i)=>({sig:d.net,val:rb[i],reg:'74HC165 (read)',desc:d.desc+' — port '+d.port})),
+   ...WD.map((d,i)=>({sig:d.net,val:wb[i],reg:'74HC595 (write)',desc:d.desc}))
   ].forEach(r=>{
     const tr=document.createElement('tr');
     if(r.val)tr.className='hl';

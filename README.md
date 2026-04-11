@@ -19,13 +19,13 @@ To flash new firmware versions, you must use the internal programming pins.
 
 USB-C cannot be used for flashing in this design, because the same USB connection is used to power the board.
 
-## Interaktivní BOM
+## Interactive BOM
 
-* [Interaktivní BOM](./PDF/ibom.html)
+* [Interactive BOM](./PDF/ibom.html)
 
 ## Functional references
 
-* [ESP32-C3 pin table](./References/esp32c3_pin_table.html)
-* [Shift register reference](./References/shift_register_reference.html)
-* [Shift register simulator](./References/shift_register_simulator.html)
+The reference material was merged into a single page with tabs/subsections.
+
+* [Full ESP32-C3 and shift-register reference](./References/esp32c3_full_reference.html)
 
