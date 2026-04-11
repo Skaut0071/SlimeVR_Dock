@@ -1,0 +1,283 @@
+
+<style>
+*{box-sizing:border-box}
+h2{font-size:15px;font-weight:500;margin:0 0 2px;color:var(--color-text-primary)}
+p.sub{font-size:12px;color:var(--color-text-secondary);margin:0 0 10px}
+.tabs{display:flex;gap:4px;margin-bottom:16px}
+.tab{padding:6px 16px;border-radius:6px;border:0.5px solid var(--color-border-secondary);font-size:13px;cursor:pointer;background:transparent;color:var(--color-text-secondary)}
+.tab.active{background:var(--color-background-secondary);color:var(--color-text-primary);font-weight:500;border-color:var(--color-border-primary)}
+.panel{display:none}.panel.active{display:block}
+table{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}
+th{background:var(--color-background-secondary);color:var(--color-text-secondary);font-weight:500;text-align:left;padding:5px 8px;border-bottom:1px solid var(--color-border-secondary);white-space:nowrap}
+td{padding:4px 8px;border-bottom:1px solid var(--color-border-tertiary);color:var(--color-text-primary);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr.highlight td{background:var(--color-background-warning)}
+code{font-family:var(--font-mono);font-size:11px;background:var(--color-background-secondary);padding:1px 4px;border-radius:3px;border:0.5px solid var(--color-border-tertiary)}
+.badge{display:inline-block;padding:1px 6px;border-radius:4px;font-size:11px;font-weight:500;white-space:nowrap}
+.b-on{background:#EAF3DE;color:#27500A}.b-off{background:#F1EFE8;color:#5F5E5A}
+.b-fault{background:#FCEBEB;color:#791F1F}.b-alert{background:#FAEEDA;color:#633806}
+.b-cc{background:#E6F1FB;color:#0C447C}.b-nc{background:#F1EFE8;color:#888780}
+@media(prefers-color-scheme:dark){
+.b-on{background:#173404;color:#C0DD97}.b-off{background:#2C2C2A;color:#B4B2A9}
+.b-fault{background:#501313;color:#F7C1C1}.b-alert{background:#412402;color:#FAC775}
+.b-cc{background:#042C53;color:#B5D4F4}.b-nc{background:#2C2C2A;color:#888780}}
+.bit-grid{display:flex;gap:3px;flex-wrap:nowrap;margin:4px 0}
+.chip-block{margin-bottom:12px}
+.chip-title{font-size:11px;font-weight:500;color:var(--color-text-secondary);margin-bottom:3px;font-family:var(--font-mono)}
+.bit{width:36px;height:40px;border-radius:5px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:background .12s;user-select:none;flex-shrink:0}
+.bit:hover{border-color:var(--color-border-primary)}
+.bit.on{background:#EAF3DE;border-color:#639922}
+.bit.on .bv{color:#27500A}
+.bit.on .bn{color:#3B6D11}
+.bit.fault.on{background:#FCEBEB;border-color:#A32D2D}
+.bit.fault.on .bv{color:#791F1F}
+.bit.fault.on .bn{color:#A32D2D}
+.bit.alert.on{background:#FAEEDA;border-color:#854F0B}
+.bit.alert.on .bv{color:#633806}
+.bit.alert.on .bn{color:#854F0B}
+.bit.cc.on{background:#E6F1FB;border-color:#185FA5}
+.bit.cc.on .bv{color:#0C447C}
+.bit.cc.on .bn{color:#185FA5}
+@media(prefers-color-scheme:dark){
+.bit.on{background:#173404;border-color:#3B6D11}.bit.on .bv{color:#C0DD97}.bit.on .bn{color:#97C459}
+.bit.fault.on{background:#501313;border-color:#A32D2D}.bit.fault.on .bv{color:#F7C1C1}.bit.fault.on .bn{color:#F09595}
+.bit.alert.on{background:#412402;border-color:#854F0B}.bit.alert.on .bv{color:#FAC775}.bit.alert.on .bn{color:#EF9F27}
+.bit.cc.on{background:#042C53;border-color:#185FA5}.bit.cc.on .bv{color:#B5D4F4}.bit.cc.on .bn{color:#85B7EB}}
+.bv{font-size:13px;font-weight:500;font-family:var(--font-mono);color:var(--color-text-primary);line-height:1}
+.bn{font-size:9px;color:var(--color-text-tertiary);line-height:1.4;text-align:center}
+.result-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.rbox{background:var(--color-background-secondary);border:0.5px solid var(--color-border-secondary);border-radius:6px;padding:4px 10px;font-size:12px;color:var(--color-text-secondary)}
+.rbox span{font-family:var(--font-mono);color:var(--color-text-primary);font-weight:500}
+.status-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:12px}
+.port-card{border:0.5px solid var(--color-border-secondary);border-radius:8px;padding:8px;background:var(--color-background-secondary)}
+.port-card.fault{border-color:#A32D2D;background:#FCEBEB}
+.port-card.active{border-color:#639922;background:#EAF3DE}
+@media(prefers-color-scheme:dark){
+.port-card.fault{border-color:#A32D2D;background:#501313}
+.port-card.active{border-color:#3B6D11;background:#173404}}
+.port-name{font-size:12px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.port-stat{font-size:10px;color:var(--color-text-secondary);line-height:1.6}
+.port-stat b{color:var(--color-text-primary)}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.leg{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--color-text-secondary)}
+.leg-dot{width:10px;height:10px;border-radius:2px}
+.presets{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.preset-btn{padding:4px 10px;border-radius:5px;border:0.5px solid var(--color-border-secondary);font-size:11px;cursor:pointer;background:transparent;color:var(--color-text-secondary)}
+.preset-btn:hover{background:var(--color-background-secondary);color:var(--color-text-primary)}
+</style>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('read')">Čtení — 74HC165 (16 bitů)</button>
+  <button class="tab" onclick="switchTab('write')">Zápis — 74HC595 (8 bitů)</button>
+  <button class="tab" onclick="switchTab('overview')">Přehled portů</button>
+</div>
+
+<div class="panel active" id="panel-read">
+  <h2>Simulátor čtení — 74HC165 (U17 + U18)</h2>
+  <p class="sub">Klikni na bity a nastav simulovaný stav vstupů. U17 = porty 0+1 (bity 15–8), U18 = porty 2+3 (bity 7–0).</p>
+  <div class="presets">
+    <span style="font-size:11px;color:var(--color-text-tertiary);padding:4px 2px">Předvolby:</span>
+    <button class="preset-btn" onclick="applyReadPreset([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])">Vše v klidu</button>
+    <button class="preset-btn" onclick="applyReadPreset([0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1])">4 kabely připojeny</button>
+    <button class="preset-btn" onclick="applyReadPreset([1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1])">Fault na portu 0</button>
+    <button class="preset-btn" onclick="applyReadPreset([0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0])">Alerty 00+20</button>
+  </div>
+  <div class="legend">
+    <div class="leg"><div class="leg-dot" style="background:#EAF3DE;border:1px solid #639922"></div>EN/CC připojeno</div>
+    <div class="leg"><div class="leg-dot" style="background:#FCEBEB;border:1px solid #A32D2D"></div>Fault</div>
+    <div class="leg"><div class="leg-dot" style="background:#FAEEDA;border:1px solid #854F0B"></div>Alert</div>
+    <div class="leg"><div class="leg-dot" style="background:#E6F1FB;border:1px solid #185FA5"></div>CC detekce</div>
+  </div>
+  <div class="chip-block">
+    <div class="chip-title">U17 — 74HC165 (porty 0 a 1, bity 15–8, přijdou první)</div>
+    <div class="bit-grid" id="read-bits-u17"></div>
+  </div>
+  <div class="chip-block">
+    <div class="chip-title">U18 — 74HC165 (porty 2 a 3, bity 7–0, přijdou druhé)</div>
+    <div class="bit-grid" id="read-bits-u18"></div>
+  </div>
+  <div class="result-row">
+    <div class="rbox">Word HEX <span id="r-hex">0x0000</span></div>
+    <div class="rbox">BIN <span id="r-bin">0b0000000000000000</span></div>
+    <div class="rbox">DEC <span id="r-dec">0</span></div>
+  </div>
+  <table style="margin-top:14px">
+    <thead><tr><th>Bit</th><th>Net</th><th>Port</th><th>Typ</th><th>Stav</th></tr></thead>
+    <tbody id="read-table"></tbody>
+  </table>
+</div>
+
+<div class="panel" id="panel-write">
+  <h2>Simulátor zápisu — 74HC595 (U19)</h2>
+  <p class="sub">Klikni na bity a sestav byte k odeslání. Výstupy se fyzicky přepnou až po pulzu GET.</p>
+  <div class="presets">
+    <span style="font-size:11px;color:var(--color-text-tertiary);padding:4px 2px">Předvolby:</span>
+    <button class="preset-btn" onclick="applyWritePreset([0,0,0,0,0,0,0,0])">Vše vypnuto</button>
+    <button class="preset-btn" onclick="applyWritePreset([1,1,1,1,0,0,0,0])">Všechny porty ON</button>
+    <button class="preset-btn" onclick="applyWritePreset([1,0,1,0,0,0,0,0])">Porty 0+2 ON</button>
+    <button class="preset-btn" onclick="applyWritePreset([1,1,1,1,1,0,0,0])">Všechny + bzučák</button>
+  </div>
+  <div class="chip-block">
+    <div class="chip-title">U19 — 74HC595 (bit 7 = QA/EN0 → bit 0 = QH, MSB první)</div>
+    <div class="bit-grid" id="write-bits"></div>
+  </div>
+  <div class="result-row">
+    <div class="rbox">HEX <span id="w-hex">0x00</span></div>
+    <div class="rbox">BIN <span id="w-bin">0b00000000</span></div>
+    <div class="rbox">DEC <span id="w-dec">0</span></div>
+    <div class="rbox" style="flex:1" id="w-desc">Vše vypnuto</div>
+  </div>
+  <table style="margin-top:14px">
+    <thead><tr><th>Bit</th><th>Výstup</th><th>Net</th><th>Cíl</th><th>Stav</th></tr></thead>
+    <tbody id="write-table"></tbody>
+  </table>
+</div>
+
+<div class="panel" id="panel-overview">
+  <h2>Přehled stavu portů</h2>
+  <p class="sub">Kombinovaný pohled z obou registrů — nastavuj bity v záložkách Čtení a Zápis.</p>
+  <div class="status-grid" id="port-grid"></div>
+  <table style="margin-top:16px">
+    <thead><tr><th>Signál</th><th>Hodnota</th><th>Registr</th><th>Popis</th></tr></thead>
+    <tbody id="overview-table"></tbody>
+  </table>
+</div>
+
+<script>
+const READ_DEFS = [
+  {net:'Fault0',port:0,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'Alert00',port:0,type:'alert',desc:'Alert 0 (I2C)'},
+  {net:'Alert01',port:0,type:'alert',desc:'Alert 1 (I2C)'},
+  {net:'CC0',port:0,type:'cc',desc:'Kabel připojen'},
+  {net:'Fault1',port:1,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'Alert10',port:1,type:'alert',desc:'Alert 0 (I2C)'},
+  {net:'Alert11',port:1,type:'alert',desc:'Alert 1 (I2C)'},
+  {net:'CC1',port:1,type:'cc',desc:'Kabel připojen'},
+  {net:'Fault2',port:2,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'Alert20',port:2,type:'alert',desc:'Alert 0 (I2C)'},
+  {net:'Alert21',port:2,type:'alert',desc:'Alert 1 (I2C)'},
+  {net:'CC2',port:2,type:'cc',desc:'Kabel připojen'},
+  {net:'Fault3',port:3,type:'fault',desc:'Přetížení / zkrat'},
+  {net:'Alert30',port:3,type:'alert',desc:'Alert 0 (I2C)'},
+  {net:'Alert31',port:3,type:'alert',desc:'Alert 1 (I2C)'},
+  {net:'CC3',port:3,type:'cc',desc:'Kabel připojen'},
+];
+const WRITE_DEFS = [
+  {out:'QA',net:'EN0',target:'DUSBSS port 0',desc:'Napájení port 0'},
+  {out:'QB',net:'EN1',target:'DUSBSS port 1',desc:'Napájení port 1'},
+  {out:'QC',net:'EN2',target:'DUSBSS port 2',desc:'Napájení port 2'},
+  {out:'QD',net:'EN3',target:'DUSBSS port 3',desc:'Napájení port 3'},
+  {out:'QE',net:'BZ',target:'Buzzer BZ1',desc:'Bzučák'},
+  {out:'QF',net:'—',target:'NC',desc:'Nevyužito'},
+  {out:'QG',net:'—',target:'NC',desc:'Nevyužito'},
+  {out:'QH',net:'—',target:'NC',desc:'Nevyužito'},
+];
+
+let rbits = new Array(16).fill(0);
+let wbits = new Array(8).fill(0);
+
+function renderRead(){
+  ['u17','u18'].forEach((id,ci)=>{
+    const cont = document.getElementById('read-bits-'+id);
+    cont.innerHTML='';
+    for(let i=0;i<8;i++){
+      const gi=ci*8+i;
+      const d=READ_DEFS[gi];
+      const b=document.createElement('div');
+      b.className='bit '+d.type+(rbits[gi]?' on':'');
+      b.innerHTML='<span class="bv">'+rbits[gi]+'</span><span class="bn">'+d.net+'</span>';
+      b.onclick=()=>{rbits[gi]=rbits[gi]?0:1;renderAll();};
+      cont.appendChild(b);
+    }
+  });
+  const val=rbits.reduce((a,v,i)=>a|(v<<(15-i)),0);
+  document.getElementById('r-hex').textContent='0x'+val.toString(16).toUpperCase().padStart(4,'0');
+  document.getElementById('r-bin').textContent='0b'+val.toString(2).padStart(16,'0');
+  document.getElementById('r-dec').textContent=val;
+  const tb=document.getElementById('read-table');
+  tb.innerHTML='';
+  READ_DEFS.forEach((d,i)=>{
+    const tr=document.createElement('tr');
+    if(rbits[i]) tr.className='highlight';
+    const stateMap={fault:'b-fault',alert:'b-alert',cc:'b-cc'};
+    const onLabel={fault:'FAULT',alert:'ALERT',cc:'PŘIPOJENO'};
+    const state=rbits[i]?`<span class="badge ${stateMap[d.type]}">${onLabel[d.type]}</span>`:'<span class="badge b-off">0 — klid</span>';
+    tr.innerHTML=`<td>${15-i}</td><td><code>${d.net}</code></td><td>Port ${d.port}</td><td>${d.type}</td><td>${state}</td>`;
+    tb.appendChild(tr);
+  });
+}
+
+function renderWrite(){
+  const cont=document.getElementById('write-bits');
+  cont.innerHTML='';
+  WRITE_DEFS.forEach((d,i)=>{
+    const b=document.createElement('div');
+    b.className='bit'+(wbits[i]?' on':'');
+    b.innerHTML='<span class="bv">'+wbits[i]+'</span><span class="bn">'+d.net+'</span>';
+    if(d.net!=='—') b.onclick=()=>{wbits[i]=wbits[i]?0:1;renderAll();};
+    else b.style.opacity='0.4';
+    cont.appendChild(b);
+  });
+  const val=wbits.reduce((a,v,i)=>a|(v<<(7-i)),0);
+  document.getElementById('w-hex').textContent='0x'+val.toString(16).toUpperCase().padStart(2,'0');
+  document.getElementById('w-bin').textContent='0b'+val.toString(2).padStart(8,'0');
+  document.getElementById('w-dec').textContent=val;
+  const active=WRITE_DEFS.filter((_,i)=>wbits[i]&&WRITE_DEFS[i].net!=='—').map(d=>d.desc);
+  const desc=document.getElementById('w-desc');
+  desc.innerHTML=active.length?'Aktivní: <span style="font-family:var(--font-mono);font-weight:500;color:var(--color-text-primary)">'+active.join(', ')+'</span>':'Vše vypnuto';
+  const tb=document.getElementById('write-table');
+  tb.innerHTML='';
+  WRITE_DEFS.forEach((d,i)=>{
+    const tr=document.createElement('tr');
+    if(wbits[i]&&d.net!=='—') tr.className='highlight';
+    const state=wbits[i]?'<span class="badge b-on">1 — zapnuto</span>':'<span class="badge b-off">0 — vypnuto</span>';
+    tr.innerHTML=`<td>b${7-i} (${d.out})</td><td><code>${d.net}</code></td><td>${d.target}</td><td>${d.desc}</td><td>${state}</td>`;
+    tb.appendChild(tr);
+  });
+}
+
+function renderOverview(){
+  const pg=document.getElementById('port-grid');
+  pg.innerHTML='';
+  for(let p=0;p<4;p++){
+    const base=p*4;
+    const fault=rbits[base],a0=rbits[base+1],a1=rbits[base+2],cc=rbits[base+3],en=wbits[p];
+    const card=document.createElement('div');
+    let cls='port-card';
+    if(fault) cls+=' fault';
+    else if(en&&cc) cls+=' active';
+    card.className=cls;
+    card.innerHTML=`<div class="port-name">Port ${p}</div>
+<div class="port-stat"><b>Napájení:</b> ${en?'<span style="color:#27500A">ON</span>':'<span style="color:#5F5E5A">OFF</span>'}</div>
+<div class="port-stat"><b>Kabel:</b> ${cc?'<span style="color:#0C447C">Připojen</span>':'—'}</div>
+<div class="port-stat"><b>Fault:</b> ${fault?'<span style="color:#791F1F">CHYBA</span>':'OK'}</div>
+<div class="port-stat"><b>Alert0/1:</b> ${a0?'<span style="color:#633806">!</span>':'—'} / ${a1?'<span style="color:#633806">!</span>':'—'}</div>`;
+    pg.appendChild(card);
+  }
+  const tb=document.getElementById('overview-table');
+  tb.innerHTML='';
+  const rows=[
+    ...READ_DEFS.map((d,i)=>({sig:d.net,val:rbits[i],reg:'74HC165 (čtení)',desc:d.desc+' — port '+d.port})),
+    ...WRITE_DEFS.map((d,i)=>({sig:d.net,val:wbits[i],reg:'74HC595 (zápis)',desc:d.desc})),
+  ];
+  rows.forEach(r=>{
+    const tr=document.createElement('tr');
+    if(r.val) tr.className='highlight';
+    tr.innerHTML=`<td><code>${r.sig}</code></td><td>${r.val}</td><td>${r.reg}</td><td>${r.desc}</td>`;
+    tb.appendChild(tr);
+  });
+}
+
+function renderAll(){renderRead();renderWrite();renderOverview();}
+
+function applyReadPreset(arr){rbits=arr.slice();renderAll();}
+function applyWritePreset(arr){wbits=arr.slice();renderAll();}
+
+function switchTab(t){
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['read','write','overview'][i]===t));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+t).classList.add('active');
+}
+
+renderAll();
+</script>

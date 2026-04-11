@@ -1,0 +1,82 @@
+
+<style>
+*{box-sizing:border-box}
+h2{font-size:16px;font-weight:500;margin:0 0 4px;color:var(--color-text-primary)}
+p.sub{font-size:12px;color:var(--color-text-secondary);margin:0 0 12px}
+.section{margin-bottom:28px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:var(--color-background-secondary);color:var(--color-text-secondary);font-weight:500;text-align:left;padding:6px 10px;border-bottom:1px solid var(--color-border-secondary);white-space:nowrap}
+td{padding:5px 10px;border-bottom:1px solid var(--color-border-tertiary);color:var(--color-text-primary);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+code{font-family:var(--font-mono);font-size:11px;background:var(--color-background-secondary);padding:1px 5px;border-radius:4px;border:0.5px solid var(--color-border-tertiary);color:var(--color-text-primary)}
+.badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:500;white-space:nowrap}
+.b-r{background:#E6F1FB;color:#0C447C}
+.b-w{background:#EAF3DE;color:#27500A}
+.b-clk{background:#FAEEDA;color:#633806}
+@media(prefers-color-scheme:dark){
+.b-r{background:#042C53;color:#B5D4F4}
+.b-w{background:#173404;color:#C0DD97}
+.b-clk{background:#412402;color:#FAC775}}
+.bit-row{display:flex;gap:2px;margin:6px 0 2px}
+.bit{width:34px;height:34px;border-radius:5px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;transition:background .15s;user-select:none}
+.bit:hover{background:var(--color-background-tertiary)}
+.bit.on{background:#EAF3DE;border-color:#639922}
+.bit.on .bv{color:#27500A}
+.bit.on .bn{color:#3B6D11}
+@media(prefers-color-scheme:dark){.bit.on{background:#173404;border-color:#3B6D11}.bit.on .bv{color:#C0DD97}.bit.on .bn{color:#97C459}}
+.bv{font-size:14px;font-weight:500;font-family:var(--font-mono);color:var(--color-text-primary);line-height:1}
+.bn{font-size:9px;color:var(--color-text-tertiary);line-height:1.4}
+.bit-labels{display:flex;gap:2px;margin-bottom:2px}
+.bl{width:34px;font-size:10px;color:var(--color-text-tertiary);text-align:center}
+.result-row{display:flex;align-items:center;gap:10px;margin-top:8px;flex-wrap:wrap}
+.result-box{background:var(--color-background-secondary);border:0.5px solid var(--color-border-secondary);border-radius:6px;padding:4px 10px;font-size:12px;color:var(--color-text-secondary)}
+.result-box span{font-family:var(--font-mono);color:var(--color-text-primary);font-weight:500}
+.chip-label{font-size:11px;color:var(--color-text-tertiary);margin-top:8px;margin-bottom:2px}
+.divider{border:none;border-top:0.5px solid var(--color-border-tertiary);margin:20px 0}
+</style>
+
+<div class="section">
+<h2>Čtení stavu — 74HC165 (MISO, IO17)</h2>
+<p class="sub">Dva řetězené registry (U17 → U18). ESP32 nastaví GET=0, načte 16 bitů přes CLK, pak GET=1.</p>
+<table>
+<thead><tr><th>Bit (MSB→LSB)</th><th>Net</th><th>Zdroj</th><th>Popis</th><th>Aktivní</th></tr></thead>
+<tbody>
+<tr><td>15 (U17 D0)</td><td><code>Fault0</code></td><td>DUSBSS port 0</td><td>Přetížení / zkrat na portu 0</td><td><span class="badge b-r">HIGH = chyba</span></td></tr>
+<tr><td>14 (U17 D1)</td><td><code>Alert00</code></td><td>DUSBSS port 0</td><td>Alert 0 z I2C čipu port 0</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>13 (U17 D2)</td><td><code>Alert01</code></td><td>DUSBSS port 0</td><td>Alert 1 z I2C čipu port 0</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>12 (U17 D3)</td><td><code>CC0</code></td><td>DUSBSS port 0</td><td>CC detekce — kabel připojen na port 0</td><td><span class="badge b-r">HIGH = připojeno</span></td></tr>
+<tr><td>11 (U17 D4)</td><td><code>Fault1</code></td><td>DUSBSS port 1</td><td>Přetížení / zkrat na portu 1</td><td><span class="badge b-r">HIGH = chyba</span></td></tr>
+<tr><td>10 (U17 D5)</td><td><code>Alert10</code></td><td>DUSBSS port 1</td><td>Alert 0 z I2C čipu port 1</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>9 (U17 D6)</td><td><code>Alert11</code></td><td>DUSBSS port 1</td><td>Alert 1 z I2C čipu port 1</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>8 (U17 D7)</td><td><code>CC1</code></td><td>DUSBSS port 1</td><td>CC detekce — kabel připojen na port 1</td><td><span class="badge b-r">HIGH = připojeno</span></td></tr>
+<tr><td>7 (U18 D0)</td><td><code>Fault2</code></td><td>DUSBSS port 2</td><td>Přetížení / zkrat na portu 2</td><td><span class="badge b-r">HIGH = chyba</span></td></tr>
+<tr><td>6 (U18 D1)</td><td><code>Alert20</code></td><td>DUSBSS port 2</td><td>Alert 0 z I2C čipu port 2</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>5 (U18 D2)</td><td><code>Alert21</code></td><td>DUSBSS port 2</td><td>Alert 1 z I2C čipu port 2</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>4 (U18 D3)</td><td><code>CC2</code></td><td>DUSBSS port 2</td><td>CC detekce — kabel připojen na port 2</td><td><span class="badge b-r">HIGH = připojeno</span></td></tr>
+<tr><td>3 (U18 D4)</td><td><code>Fault3</code></td><td>DUSBSS port 3</td><td>Přetížení / zkrat na portu 3</td><td><span class="badge b-r">HIGH = chyba</span></td></tr>
+<tr><td>2 (U18 D5)</td><td><code>Alert30</code></td><td>DUSBSS port 3</td><td>Alert 0 z I2C čipu port 3</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>1 (U18 D6)</td><td><code>Alert31</code></td><td>DUSBSS port 3</td><td>Alert 1 z I2C čipu port 3</td><td><span class="badge b-r">HIGH = alert</span></td></tr>
+<tr><td>0 (U18 D7)</td><td><code>CC3</code></td><td>DUSBSS port 3</td><td>CC detekce — kabel připojen na port 3</td><td><span class="badge b-r">HIGH = připojeno</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<hr class="divider">
+
+<div class="section">
+<h2>Zápis výstupů — 74HC595 (MOSI, IO16)</h2>
+<p class="sub">Jeden registr (U19). ESP32 pošle 8 bitů přes CLK, pak pulz GET → výstupy se aktualizují.</p>
+<table>
+<thead><tr><th>Bit (MSB→LSB)</th><th>Net</th><th>Cíl</th><th>Popis</th><th>Aktivní</th></tr></thead>
+<tbody>
+<tr><td>7 (QA)</td><td><code>EN0</code></td><td>DUSBSS port 0</td><td>Povolit napájení portu 0</td><td><span class="badge b-w">HIGH = zapnuto</span></td></tr>
+<tr><td>6 (QB)</td><td><code>EN1</code></td><td>DUSBSS port 1</td><td>Povolit napájení portu 1</td><td><span class="badge b-w">HIGH = zapnuto</span></td></tr>
+<tr><td>5 (QC)</td><td><code>EN2</code></td><td>DUSBSS port 2</td><td>Povolit napájení portu 2</td><td><span class="badge b-w">HIGH = zapnuto</span></td></tr>
+<tr><td>4 (QD)</td><td><code>EN3</code></td><td>DUSBSS port 3</td><td>Povolit napájení portu 3</td><td><span class="badge b-w">HIGH = zapnuto</span></td></tr>
+<tr><td>3 (QE)</td><td><code>BZ</code></td><td>Buzzer (BZ1)</td><td>Aktivovat bzučák — varování uživatele</td><td><span class="badge b-w">HIGH = bzučí</span></td></tr>
+<tr><td>2 (QF)</td><td>—</td><td>NC</td><td>Nevyužito</td><td>—</td></tr>
+<tr><td>1 (QG)</td><td>—</td><td>NC</td><td>Nevyužito</td><td>—</td></tr>
+<tr><td>0 (QH)</td><td>—</td><td>NC</td><td>Nevyužito (QH' jde do řetězení)</td><td>—</td></tr>
+</tbody>
+</table>
+</div>
