@@ -463,4 +463,15 @@
 		(uuid "9ec949b1-3799-4dc2-9af1-d0d834ff194a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library.pretty/RVE0028A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
