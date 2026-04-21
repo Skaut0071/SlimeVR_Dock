@@ -21,11 +21,11 @@ USB-C cannot be used for flashing in this design, because the same USB connectio
 
 ## Interactive BOM
 
-* [Interactive BOM](./PDF/ibom.html)
+* [Interactive BOM](https://skaut0071.github.io/SlimeVR_Dock/PDF/ibom.html)
 
 ## Functional references
 
 The reference material was merged into a single page with tabs/subsections.
 
-* [Full ESP32-C3 and shift-register reference](./References/esp32c3_full_reference.html)
+* [Full ESP32-C3 and shift-register reference](https://skaut0071.github.io/SlimeVR_Dock/References/esp32c3_full_reference.html)
 
