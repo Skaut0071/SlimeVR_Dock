@@ -5015,7 +5015,7 @@
 		)
 		(uuid "0d28189d-ec53-4087-9795-ba0aada6c22f")
 	)
-	(text "Tempeture Sensor\nConector"
+	(text "Tempature Sensor\nConector"
 		(exclude_from_sim no)
 		(at 234.95 44.196 0)
 		(effects
@@ -5039,7 +5039,7 @@
 		)
 		(uuid "142c7fd4-a32c-4e22-89bc-d35aa85c8da8")
 	)
-	(text "3V3 Power Generator"
+	(text "3V3 Power Regulator"
 		(exclude_from_sim no)
 		(at 177.546 159.512 0)
 		(effects
@@ -5085,7 +5085,7 @@
 		)
 		(uuid "5fe82400-8aee-4b8d-9e63-555b56c15686")
 	)
-	(text "USB-C Conections\n"
+	(text "USB-C Connections\n"
 		(exclude_from_sim no)
 		(at 76.2 88.138 0)
 		(effects
@@ -5097,7 +5097,7 @@
 		)
 		(uuid "9271b1d8-facd-477a-80ef-0e9a2b9d321a")
 	)
-	(text "StepDwon Fan \nSensor Conector"
+	(text "StepDown Fan \nSensor Conector"
 		(exclude_from_sim no)
 		(at 235.458 73.66 0)
 		(effects
@@ -8453,7 +8453,7 @@
 			)
 		)
 	)
-	(global_label "5VStepDwon"
+	(global_label "5VStepDown"
 		(shape input)
 		(at 71.12 77.47 180)
 		(fields_autoplaced yes)
@@ -9557,30 +9557,6 @@
 			)
 		)
 	)
-	(global_label "5VStepDwon"
-		(shape input)
-		(at 115.57 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba8e473e-888c-46ca-a3ca-68a1f5a958f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.9246 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Data_Out"
 		(shape input)
 		(at 201.93 29.21 0)
@@ -9626,6 +9602,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "5VStepDown"
+		(shape input)
+		(at 115.57 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4dd2298-b3d3-4d43-8ea4-534782a998a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9246 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
