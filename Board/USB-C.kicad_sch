@@ -1726,6 +1726,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 113.03) (xy 180.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446b17fe-f0f0-40d7-8ca7-245b27525b66")
+	)
+	(wire
+		(pts
 			(xy 154.94 102.87) (xy 160.02 102.87)
 		)
 		(stroke
@@ -1929,7 +1939,7 @@
 	)
 	(hierarchical_label "ALERT"
 		(shape output)
-		(at 180.34 113.03 0)
+		(at 181.61 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2653,7 +2663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100nF"
 			(at 160.02 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)

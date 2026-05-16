@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SlimeVR Dock")
-		(date "2026-04-10")
-		(rev "1.0")
+		(date "2026-05-16")
+		(rev "2.0")
 		(company "Skaut0071")
 	)
 	(lib_symbols
@@ -5408,10 +5408,6 @@
 		(uuid "17a14b8a-e058-4386-98d7-00b9ca10bfe0")
 	)
 	(no_connect
-		(at 146.05 26.67)
-		(uuid "2ffcfe30-5c30-4249-88f4-70a3318080af")
-	)
-	(no_connect
 		(at 50.8 144.78)
 		(uuid "35bdc24e-6b05-4e92-a437-bd31f43c9359")
 	)
@@ -5450,6 +5446,16 @@
 	(no_connect
 		(at 167.64 106.68)
 		(uuid "f788b56f-bfb8-4f5b-b73d-c8f968366a82")
+	)
+	(wire
+		(pts
+			(xy 144.78 21.59) (xy 140.97 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0042d236-5007-4add-ba33-f4b4ad0255f9")
 	)
 	(wire
 		(pts
@@ -5620,6 +5626,16 @@
 			(type default)
 		)
 		(uuid "0dcc5c67-56c3-494a-8bdf-9d8b86f64d37")
+	)
+	(wire
+		(pts
+			(xy 144.78 26.67) (xy 144.78 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbd8523-c009-4c84-9a34-606303ffeaa8")
 	)
 	(wire
 		(pts
@@ -6210,6 +6226,16 @@
 			(type default)
 		)
 		(uuid "4f8ae574-9b37-451d-bdcf-cd9314d23094")
+	)
+	(wire
+		(pts
+			(xy 140.97 21.59) (xy 140.97 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516cfcfc-aa43-4d3f-b00b-8b84eb63c805")
 	)
 	(wire
 		(pts
@@ -7250,6 +7276,16 @@
 			(type default)
 		)
 		(uuid "c08a4164-fdf8-4674-9a84-7f97a005835f")
+	)
+	(wire
+		(pts
+			(xy 146.05 26.67) (xy 144.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b702b1-7e93-4aa8-834a-05f20cb17db7")
 	)
 	(bus
 		(pts
@@ -13167,6 +13203,83 @@
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 140.97 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f32f5fb-9c6a-4be9-ad92-eab06f757bd8")
+		(property "Reference" "#PWR0117"
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 140.97 26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 140.97 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98929fa7-171f-4080-b5e1-72034af4601b")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)

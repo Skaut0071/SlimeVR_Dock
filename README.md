@@ -23,6 +23,10 @@ USB-C cannot be used for flashing in this design, because the same USB connectio
 
 * [Interactive BOM](https://skaut0071.github.io/SlimeVR_Dock/PDF/ibom.html)
 
+## PDF Schematic
+
+* [PDF Schematic](https://skaut0071.github.io/SlimeVR_Dock/PDF/SlimeVR_Dock.pdf)
+
 ## Functional references
 
 The reference material was merged into a single page with tabs/subsections.
