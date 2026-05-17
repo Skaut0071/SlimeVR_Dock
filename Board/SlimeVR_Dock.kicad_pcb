@@ -4529,7 +4529,7 @@
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.4mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C24"
-			(at 4.25 2.548 90)
+			(at 4.15 3.7 90)
 			(layer "F.SilkS")
 			(uuid "d387e69d-4609-4296-b689-4659b9860f5b")
 			(effects
@@ -5861,7 +5861,7 @@
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.4mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C25"
-			(at -4.150503 2.390925 90)
+			(at 4.225 -2.325 90)
 			(layer "F.SilkS")
 			(uuid "59dc4332-99c1-46aa-8239-f08c9cff10cd")
 			(effects
