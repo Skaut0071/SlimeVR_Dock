@@ -1478,6 +1478,12 @@
 		)
 	)
 	(junction
+		(at 142.24 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00b76718-1e8b-4467-be49-2801cc6fffaa")
+	)
+	(junction
 		(at 71.12 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1586,12 +1592,6 @@
 		(uuid "7e8b135c-c5bb-4577-ab79-dc91b1d19555")
 	)
 	(junction
-		(at 67.31 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8124eedd-8e09-490f-ab61-dc900f543a40")
-	)
-	(junction
 		(at 127 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1626,6 +1626,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae34313e-3651-4b78-8659-60f0cb26fe80")
+	)
+	(junction
+		(at 64.77 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4f3666c-ff8f-4ef5-9c09-fc35eff39f6f")
 	)
 	(junction
 		(at 71.12 44.45)
@@ -1752,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "0dcba7fe-b932-4bc1-8dca-6eeb87e10c00")
+	)
+	(wire
+		(pts
+			(xy 64.77 91.44) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ce94b2-4eb7-496a-a602-db43f9c78af3")
 	)
 	(wire
 		(pts
@@ -1965,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6c97e2-0911-4bb1-8655-9831884e3a94")
+	)
+	(wire
+		(pts
 			(xy 81.28 57.15) (xy 81.28 59.69)
 		)
 		(stroke
@@ -2175,16 +2201,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 91.44) (xy 68.58 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770410b7-0ffa-4abe-8c24-db216835fb6f")
-	)
-	(wire
-		(pts
 			(xy 127 59.69) (xy 127 62.23)
 		)
 		(stroke
@@ -2265,7 +2281,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 142.24 64.77)
+			(xy 156.21 68.58) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d88767-49cb-475a-89a1-3e6ebbb1eecc")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2345,6 +2371,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 68.58) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba89094-c101-4459-a9a2-a00e4ebe8ba5")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a052ba43-ab12-4b75-b019-839bd0e82e04")
+	)
+	(wire
+		(pts
 			(xy 156.21 52.07) (xy 156.21 53.34)
 		)
 		(stroke
@@ -2405,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 86.36) (xy 67.31 91.44)
+			(xy 67.31 86.36) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2505,16 +2551,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 91.44) (xy 67.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce28cea-08bc-438c-b64a-f311b5208cdc")
-	)
-	(wire
-		(pts
 			(xy 127 64.77) (xy 132.08 64.77)
 		)
 		(stroke
@@ -2555,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 64.77 95.25)
+			(xy 64.77 69.85) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2712,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "dfb10bc8-7722-4c2f-aba4-972aea069209")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bfd0d8-7e2a-4bb5-a6ae-3b4885307033")
 	)
 	(wire
 		(pts
@@ -3334,6 +3380,83 @@
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 156.21 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26ff8a51-adec-4b0e-a044-81821fe428a2")
+		(property "Reference" "#PWR0126"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 156.21 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d788978a-b332-49e4-a907-df8cd34462c5")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -4293,6 +4416,87 @@
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ec79a0d-e937-444a-b3b0-9e49c17d27fd")
+		(property "Reference" "C39"
+			(at 145.542 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.526 71.882 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 143.51 69.5452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b115491-9e18-4cc1-81cc-8b8528d888fa")
+		)
+		(pin "1"
+			(uuid "f9b52f9a-54ea-49d5-8173-6a535035fc49")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
+					(reference "C39")
 					(unit 1)
 				)
 			)
