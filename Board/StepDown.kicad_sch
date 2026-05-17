@@ -337,172 +337,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -1752,6 +1586,12 @@
 		(uuid "7e8b135c-c5bb-4577-ab79-dc91b1d19555")
 	)
 	(junction
+		(at 67.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8124eedd-8e09-490f-ab61-dc900f543a40")
+	)
+	(junction
 		(at 127 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1764,22 +1604,28 @@
 		(uuid "8a48bbb1-52d7-492b-b758-c3ea383a17d0")
 	)
 	(junction
+		(at 67.31 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ec5b747-7d89-4ef0-a248-5d07697b393c")
+	)
+	(junction
 		(at 127 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bd768ff-d24f-4075-8546-8ef4dfb3886f")
 	)
 	(junction
+		(at 80.01 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09e543c-1dca-4cac-a659-025b090c09eb")
+	)
+	(junction
 		(at 127 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae34313e-3651-4b78-8659-60f0cb26fe80")
-	)
-	(junction
-		(at 67.31 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0976bb9-ed14-47b7-bfd7-4b356eda47f4")
 	)
 	(junction
 		(at 71.12 44.45)
@@ -1846,6 +1692,16 @@
 			(type default)
 		)
 		(uuid "02ca820a-01c5-4981-a96a-1505c28a099f")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f09508-e722-4570-a450-bb75065ef088")
 	)
 	(wire
 		(pts
@@ -1969,16 +1825,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.9) (xy 67.31 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcaa452-adca-412e-aafc-352427de54f2")
-	)
-	(wire
-		(pts
 			(xy 67.31 69.85) (xy 67.31 78.74)
 		)
 		(stroke
@@ -2049,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 88.9) (xy 76.2 88.9)
+			(xy 77.47 86.36) (xy 76.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.9) (xy 68.58 88.9)
+			(xy 67.31 86.36) (xy 68.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2326,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "730f82a0-e068-4cc3-935b-89d076fd5219")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770410b7-0ffa-4abe-8c24-db216835fb6f")
 	)
 	(wire
 		(pts
@@ -2399,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 74.93) (xy 77.47 88.9)
+			(xy 77.47 74.93) (xy 77.47 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2529,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.9) (xy 67.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a893b255-29b1-40b9-afbb-7e5ba095ee65")
-	)
-	(wire
-		(pts
 			(xy 64.77 69.85) (xy 67.31 69.85)
 		)
 		(stroke
@@ -2556,6 +2402,16 @@
 			(type default)
 		)
 		(uuid "aa5ca6ae-c393-46fc-ac1a-0bb1cb07f87d")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0e33a2-6c20-496d-8ba2-b2238e0f7367")
 	)
 	(wire
 		(pts
@@ -2646,6 +2502,16 @@
 			(type default)
 		)
 		(uuid "bca67c67-962a-4cde-b9eb-40359f557738")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 67.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce28cea-08bc-438c-b64a-f311b5208cdc")
 	)
 	(wire
 		(pts
@@ -3158,6 +3024,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 74.93 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "089c6716-d744-4e09-89e3-570c5771c1cd")
+		(property "Reference" "R57"
+			(at 76.962 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.708 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 70.612 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe6d3328-d362-4959-baa3-e00239626052")
+		)
+		(pin "2"
+			(uuid "423c0526-693b-418e-baf7-1d18f6cf44e4")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 67.31 99.06 0)
 		(unit 1)
@@ -3387,85 +3334,6 @@
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 74.93 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2715b715-6dab-44b8-91ee-e9f450c73b82")
-		(property "Reference" "D2"
-			(at 74.93 76.708 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1V"
-			(at 74.93 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 74.93 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 74.93 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04a45ae2-f289-4d7b-92fc-ebe4a50bdf13")
-		)
-		(pin "2"
-			(uuid "61a5d1a5-72e2-47f6-bce3-b0aeec79a59a")
-		)
-		(instances
-			(project "SlimeVR_Dock"
-				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3897,7 +3765,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "75k"
 			(at 76.708 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +3826,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 88.9 90)
+		(at 72.39 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3968,7 +3836,7 @@
 		(dnp no)
 		(uuid "59634b44-b619-438b-bc79-f7257478c4c0")
 		(property "Reference" "R39"
-			(at 70.358 88.9 90)
+			(at 70.358 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3979,7 +3847,7 @@
 			)
 		)
 		(property "Value" "43k"
-			(at 70.612 90.932 90)
+			(at 70.612 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3990,7 +3858,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 90.678 90)
+			(at 72.39 88.138 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +3869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 88.9 0)
+			(at 72.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4012,7 +3880,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 88.9 0)
+			(at 72.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,6 +4453,87 @@
 			(project "SlimeVR_Dock"
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f1d6e76-745b-4cff-a224-22b0f7d5a459")
+		(property "Reference" "R56"
+			(at 70.358 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 70.104 93.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.39 93.218 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b9c9441-d38f-45f4-9b70-52556f790c43")
+		)
+		(pin "2"
+			(uuid "b7f5643f-f660-4922-b5ca-a941d6e69ebd")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/9328ec89-1532-462d-95ef-1baa495e4b70"
+					(reference "R56")
 					(unit 1)
 				)
 			)
