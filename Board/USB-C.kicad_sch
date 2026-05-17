@@ -1595,6 +1595,12 @@
 		(uuid "51ffb95f-e4ba-4ccf-9a26-ba64ac42d95b")
 	)
 	(junction
+		(at 149.86 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8dd987-0e2f-4807-85dd-e24fc7775814")
+	)
+	(junction
 		(at 138.43 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1773,6 +1779,16 @@
 			(type default)
 		)
 		(uuid "71a25cfb-7046-47cf-98af-2d4a20347abf")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 149.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee21df2-f30d-4426-8800-5ead63de15a6")
 	)
 	(wire
 		(pts
@@ -2427,6 +2443,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 149.86 116.84 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59e793e4-b7d4-482a-9d3c-c16d13bcf9c4")
+		(property "Reference" "C28"
+			(at 152.654 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.654 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 150.8252 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adf9dfe4-d09f-4408-9e61-7ee23fd6efa6")
+		)
+		(pin "2"
+			(uuid "de5378b2-7f53-434c-adb1-54b1e91e8e08")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 163.83 90.17 0)
 		(unit 1)
@@ -2653,7 +2779,7 @@
 		(dnp no)
 		(uuid "f3a2306d-4c68-4529-8b93-50879c3a0dcf")
 		(property "Reference" "C14"
-			(at 160.02 85.0899 0)
+			(at 161.544 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +2790,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 160.02 87.6299 0)
+			(at 161.544 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2967,6 +3093,112 @@
 				)
 				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 149.86 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd5a18eb-0aaf-4df2-9df8-7302a4b1d4aa")
+		(property "Reference" "#PWR0118"
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 149.86 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 149.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "851b403c-1961-4136-9418-34810d4f31c0")
+		)
+		(instances
+			(project "SlimeVR_Dock"
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/20608bd6-1177-4976-ba2c-965ba6250d58/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/21559adc-22f0-4da5-bb39-da22b4a6076e/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/2b86b0ae-2209-4a30-98e5-d26e75080e9f/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/aa530802-575e-4709-88a2-62d0301eba9c"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/06ff9557-1f9b-4670-8a34-bb7684a016dd/c6b53444-adaa-455c-990e-02e7d6acd668/dcabbe47-460f-4120-827c-7d4d07bf229a"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
