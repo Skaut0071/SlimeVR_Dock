@@ -7,7 +7,7 @@
 	(title_block
 		(title "SlimeVR Dock")
 		(date "2026-05-16")
-		(rev "2.0")
+		(rev "3.0")
 		(company "Skaut0071")
 	)
 	(lib_symbols
@@ -5602,12 +5602,12 @@
 		(uuid "54e5457f-5a55-404b-888a-b42c4cb23668")
 	)
 	(no_connect
-		(at 171.45 26.67)
-		(uuid "5d05455b-f2c0-409f-bf51-dd347d8e3ff3")
-	)
-	(no_connect
 		(at 201.93 31.75)
 		(uuid "70e131ac-2fb5-447a-83f9-897c575ab6ef")
+	)
+	(no_connect
+		(at 171.45 29.21)
+		(uuid "958badce-4c60-46c6-9164-631a27a790e6")
 	)
 	(no_connect
 		(at 167.64 101.6)
@@ -6094,16 +6094,6 @@
 			(type default)
 		)
 		(uuid "2d13926c-3356-4699-a99e-9ce6d6a219ce")
-	)
-	(wire
-		(pts
-			(xy 171.45 29.21) (xy 176.53 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f7e44de-908b-4b24-9867-3e68e9673f58")
 	)
 	(wire
 		(pts
@@ -7217,6 +7207,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 26.67) (xy 173.99 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5ed9b5-4b3e-4227-8d32-926c9c4fd1a1")
+	)
+	(wire
+		(pts
 			(xy 163.83 142.24) (xy 163.83 143.51)
 		)
 		(stroke
@@ -8127,6 +8127,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 29.21) (xy 176.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efaa5c5d-b1c6-4b3f-9a75-5dd03842c311")
+	)
+	(wire
+		(pts
 			(xy 232.41 64.77) (xy 232.41 60.96)
 		)
 		(stroke
@@ -8174,6 +8184,16 @@
 			(type default)
 		)
 		(uuid "f5408e5b-989f-4c3f-9aab-01373e285f8a")
+	)
+	(wire
+		(pts
+			(xy 173.99 26.67) (xy 173.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f613037c-f62a-44af-aee4-d90a754291ed")
 	)
 	(wire
 		(pts
@@ -13443,7 +13463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 59.69 114.808 90)
 			(hide yes)
 			(show_name no)
