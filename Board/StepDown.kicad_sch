@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL7030-222"
 			(at 179.07 93.98 0)
 			(hide yes)
 			(show_name no)
