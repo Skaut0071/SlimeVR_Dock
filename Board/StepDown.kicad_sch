@@ -1343,12 +1343,6 @@
 		(uuid "07f7c450-22b6-4e91-8c1d-0b0a41a5c2b3")
 	)
 	(junction
-		(at 123.19 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12a80977-9223-464d-995c-be3bb4d2f993")
-	)
-	(junction
 		(at 168.91 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1709,16 +1703,6 @@
 			(type default)
 		)
 		(uuid "2650354c-101d-4bcd-b804-ceabf6721eff")
-	)
-	(wire
-		(pts
-			(xy 124.46 86.36) (xy 123.19 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28db8e85-6e7a-445c-ada4-549fa833768c")
 	)
 	(wire
 		(pts
@@ -2142,7 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 123.19 83.82)
+			(xy 124.46 86.36) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 123.19 86.36)
+			(xy 113.03 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 83.82) (xy 125.73 83.82)
+			(xy 124.46 83.82) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3726,7 +3710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL7030-222"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL7070-XXX"
 			(at 179.07 93.98 0)
 			(hide yes)
 			(show_name no)
