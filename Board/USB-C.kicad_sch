@@ -2070,7 +2070,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49851"
+		(property "LCSC" "alr C49851"
 			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2515,6 +2515,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C6119867"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "adf9dfe4-d09f-4408-9e61-7ee23fd6efa6")
 		)
@@ -2729,6 +2740,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42389461"
+			(at 154.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3eb36bb4-7538-4fb3-9b9b-108758010994")
 		)
@@ -2829,6 +2851,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C6119867"
 			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)

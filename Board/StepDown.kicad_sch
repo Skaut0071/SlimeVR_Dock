@@ -3038,6 +3038,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C16780"
+			(at 189.23 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "031baa7c-6378-4649-a7a2-4d849a40092f")
 		)
@@ -3187,6 +3198,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C98220"
+			(at 116.84 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3354,6 +3376,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1743"
+			(at 173.99 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0bdc6d3-78a9-4464-852b-075f6991a862")
 		)
@@ -3426,6 +3459,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 189.23 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C16780"
+			(at 189.23 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,6 +3714,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2907006"
+			(at 118.11 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "583bad95-0292-4f5e-a9e1-c387363ac6ed")
 		)
@@ -3740,6 +3795,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 179.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49261221"
+			(at 179.07 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,6 +3973,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C98220"
+			(at 176.53 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f86db72-7458-431e-b544-584b246a984e")
 		)
@@ -3979,6 +4056,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C90084"
 			(at 146.05 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4151,6 +4239,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C2907067"
+			(at 116.84 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0439e96-f221-4fad-bd7f-8ad212415f7f")
 		)
@@ -4232,6 +4331,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C2907038"
+			(at 116.84 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb3dcae8-cc61-48c6-9a45-c1050f329871")
 		)
@@ -4303,6 +4413,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17660"
 			(at 173.99 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4469,6 +4590,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C15849"
+			(at 113.03 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c62d3aa5-f0db-4c97-a6ce-a783719640ac")
 		)
@@ -4541,6 +4673,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C2907067"
+			(at 120.65 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,6 +4851,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C49678"
+			(at 189.23 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b115491-9e18-4cc1-81cc-8b8528d888fa")
 		)
@@ -4745,7 +4899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1nF"
 			(at 171.45 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,6 +4933,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C49678"
 			(at 170.18 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4870,6 +5035,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C4197"
+			(at 120.65 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a851228-c2ff-44ae-9039-7d695e9239dc")
 		)
@@ -4942,6 +5118,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 109.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C14675"
+			(at 109.22 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,6 +5219,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C2907067"
+			(at 176.53 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e05a3e5-1e11-48bf-90c4-bf8ca161df4e")
 		)
@@ -5102,6 +5300,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907011"
+			(at 121.92 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,6 +5399,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C16780"
+			(at 118.11 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93a0ca02-fe72-4634-af6f-b152340006eb")
 		)
@@ -5259,6 +5479,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C98192"
 			(at 101.6 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5339,6 +5570,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C16780"
+			(at 118.11 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,6 +5746,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C16780"
+			(at 118.11 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e91c6b2b-9d27-4d7c-b5fc-9d2a908a61b3")
 		)
@@ -5585,6 +5838,17 @@
 				)
 			)
 		)
+		(property "LCSC" "alr C16780"
+			(at 189.23 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "10e96e95-4a62-47e4-8674-395fc5482c43")
 		)
@@ -5657,6 +5921,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 101.6 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1531"
+			(at 101.6 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,6 +6090,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 189.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "alr C16780"
+			(at 189.23 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
