@@ -26,10 +26,3 @@ USB-C cannot be used for flashing in this design, because the same USB connectio
 ## PDF Schematic
 
 * [PDF Schematic](https://skaut0071.github.io/SlimeVR_Dock/PDF/SlimeVR_Dock.pdf)
-
-## Functional references
-
-The reference material was merged into a single page with tabs/subsections.
-
-* [Full ESP32-C3 and shift-register reference](https://skaut0071.github.io/SlimeVR_Dock/References/esp32c3_full_reference.html)
-
