@@ -1901,6 +1901,17 @@
 			(uuid "78623e1b-58ae-440a-9afb-1c2ed0ccbdef")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -2654,6 +2665,17 @@
 			(uuid "40c05be7-ee2c-444d-a396-9cebaba98e9c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
@@ -3769,6 +3791,17 @@
 			(uuid "96f00b86-b9f7-43b7-81e7-a91a1bdde800")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Library:RVE0028A"
 		(layer "F.Cu")
@@ -7639,6 +7672,17 @@
 			(uuid "16686a7a-2ff7-4c55-a259-4275d12725c3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -8091,6 +8135,17 @@
 			(uuid "8019b4a9-f379-4cec-9b97-a6c79ebab12a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -8591,6 +8646,17 @@
 			(uuid "96903b95-4693-4e35-8943-0b4161dde76e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
@@ -9017,6 +9083,17 @@
 			(uuid "6c09e055-8a44-4dc8-839d-3bbf3d6c5e4f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_Coilcraft_XAL7070-XXX"
 		(layer "F.Cu")
@@ -11183,6 +11260,17 @@
 			(uuid "4165889a-e876-4053-b35f-9d16446739be")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Library.pretty/YTC-TC16S-128.step"
+			(offset
+				(xyz 0 0 11.95)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -12752,15 +12840,15 @@
 			(uuid "c1fd02d2-3a2e-4b46-9c7e-61b7bbdf781e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -13543,15 +13631,15 @@
 			(uuid "f3b97b7c-2b65-4719-bdbf-60b405945186")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -19603,15 +19691,15 @@
 			(uuid "26c94f6e-2dd6-40d3-9386-35c6b5746f4c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -22118,15 +22206,15 @@
 			(uuid "57088a43-cbe8-427a-85cc-c24684ad735a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -24779,7 +24867,7 @@
 			(uuid "08def0d5-1644-42b4-b92e-ef5cb3d293de")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Lenovo/Downloads/AP22652W6_7/SOIC_52W6-7_DIO.step"
+		(model "${KIPRJMOD}/Library.pretty/SOIC_52W6-7_DIO.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25437,15 +25525,15 @@
 			(uuid "5aad5f04-16f3-4a59-af04-b1e4d122dd56")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -25868,15 +25956,15 @@
 			(uuid "cd12c8c1-44cb-4b55-91f4-004133a9ecbb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -28623,7 +28711,7 @@
 			(uuid "ab8779ed-b207-497e-b7a0-2792b61856ba")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Lenovo/Downloads/AP22652W6_7/SOIC_52W6-7_DIO.step"
+		(model "${KIPRJMOD}/Library.pretty/SOIC_52W6-7_DIO.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29484,7 +29572,7 @@
 			(uuid "c05a7340-543b-479e-94ca-3e9b9bbd2447")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Lenovo/Downloads/AP22652W6_7/SOIC_52W6-7_DIO.step"
+		(model "${KIPRJMOD}/Library.pretty/SOIC_52W6-7_DIO.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31316,15 +31404,15 @@
 			(uuid "f6486c00-c4b0-4400-9afe-9ae3e8a7cd75")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -36556,15 +36644,15 @@
 			(uuid "d1f7aa38-1ef7-4518-9b7d-cf433a5dc087")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.step"
+		(model "${KIPRJMOD}/Library.pretty/INA226.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.65)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -37596,7 +37684,7 @@
 			(uuid "9e984818-4be5-4c3b-9349-880379174e81")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Lenovo/Downloads/AP22652W6_7/SOIC_52W6-7_DIO.step"
+		(model "${KIPRJMOD}/Library.pretty/SOIC_52W6-7_DIO.step"
 			(offset
 				(xyz 0 0 0)
 			)

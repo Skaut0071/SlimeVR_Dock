@@ -579,7 +579,7 @@
 		(uuid "aae7d1e8-f066-4375-b4a6-2c5f595f5e54")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Lenovo/Downloads/AP22652W6_7/SOIC_52W6-7_DIO.step"
+	(model "${KIPRJMOD}/Library.pretty/SOIC_52W6-7_DIO.step"
 		(offset
 			(xyz 0 0 0)
 		)
