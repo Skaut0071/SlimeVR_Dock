@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "SlimeVR Dock")
+		(date "2026-09-23")
+		(rev "5")
+		(company "Skaut0071")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -43756,7 +43762,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Ver.: 4"
+	(gr_text "Ver.: 5"
 		(at 111.275 135.35 0)
 		(layer "B.SilkS")
 		(uuid "f8f67192-5474-452a-a37b-0504ec3705e9")
