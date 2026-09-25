@@ -11742,7 +11742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 72.39 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11775,7 +11775,7 @@
 				)
 			)
 		)
-		(property "LCSC" "pls find idk"
+		(property "LCSC" "alr C47117498"
 			(at 72.39 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13463,7 +13463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 229.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13518,7 +13518,7 @@
 				)
 			)
 		)
-		(property "LCSC" "pls find idk"
+		(property "LCSC" "alr C7473299"
 			(at 229.87 88.9 0)
 			(hide yes)
 			(show_name no)

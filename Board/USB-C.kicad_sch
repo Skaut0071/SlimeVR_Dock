@@ -2224,7 +2224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2927282"
+		(property "LCSC" "alr C2927282"
 			(at 123.19 99.06 0)
 			(hide yes)
 			(show_name no)
