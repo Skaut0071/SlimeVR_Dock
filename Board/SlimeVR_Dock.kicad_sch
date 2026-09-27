@@ -10889,7 +10889,7 @@
 				)
 			)
 		)
-		(property "LCSC" "x"
+		(property "LCSC" "x - Only holes"
 			(at 236.22 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -11200,7 +11200,7 @@
 				)
 			)
 		)
-		(property "LCSC" "x"
+		(property "LCSC" "x - Only holes"
 			(at 195.58 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12991,7 +12991,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr"
+		(property "LCSC" "alr - Any passive buzzer"
 			(at 229.87 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -14617,7 +14617,7 @@
 				)
 			)
 		)
-		(property "LCSC" "x"
+		(property "LCSC" "x - Only holes"
 			(at 195.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14905,7 +14905,7 @@
 				)
 			)
 		)
-		(property "LCSC" "x"
+		(property "LCSC" "alr C240840"
 			(at 234.95 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -16867,7 +16867,7 @@
 				)
 			)
 		)
-		(property "LCSC" "x"
+		(property "LCSC" "x - Only holes"
 			(at 200.66 115.57 0)
 			(hide yes)
 			(show_name no)
