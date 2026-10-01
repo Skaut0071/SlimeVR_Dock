@@ -4,7 +4,7 @@
 "C42","1","2.2nF","Capacitor_SMD:C_0402_1005Metric","3","C1531"
 "C14,C15,C16,C17,C18,C19,C20,C21,C28,C32,C33,C34,C35,C36,C37,C38,C43,C44,C45,C46","20","100nF","Capacitor_SMD:C_0603_1608Metric","4","alr C6119867"
 "C39,C41","2","100nF","Capacitor_SMD:C_0805_2012Metric","5","alr C49678"
-"C1,C40,C47","3","1uF","Capacitor_SMD:C_0603_1608Metric","6","C15849"
+"C1,C40,C47","3","1uF","Capacitor_SMD:C_0603_1608Metric","6","alr C15849"
 "L1","1","2.2uH","Library:L_Coilank_APS0730","7","C49261221"
 "C29","1","4.7uF","Capacitor_SMD:C_0805_2012Metric","8","alr C98192"
 "C2,C3,C4,C5,C6,C7,C8,C9,C10,C12","10","10uF","Capacitor_SMD:C_0603_1608Metric","9","alr C19702"

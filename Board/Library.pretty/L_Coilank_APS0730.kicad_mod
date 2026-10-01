@@ -109,4 +109,15 @@
 		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a730000000a")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL7030-222.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
