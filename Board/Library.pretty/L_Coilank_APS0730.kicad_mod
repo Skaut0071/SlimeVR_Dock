@@ -1,0 +1,112 @@
+(footprint "L_Coilank_APS0730"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Coilank, APS0720/APS0730 series, 7.8x7.6x3.1mm, land pattern a=2.8 b=7.4 c=7.2 per Coilank APS series datasheet")
+	(tags "inductor coilank aps0730 aps0720 molded")
+	(property "Reference" "REF**"
+		(at 0 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Coilank_APS0730"
+		(at 0 4.9 0)
+		(layer "F.Fab")
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1f84c5ee11baae67b45ac804b776435a.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000003")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000004")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.01 -3.91)
+		(end 4.01 3.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000005")
+	)
+	(fp_rect
+		(start -4.15 -4.05)
+		(end 4.15 4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000006")
+	)
+	(fp_rect
+		(start -3.9 -3.8)
+		(end 3.9 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000007")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.55 0)
+		(size 2.3 7.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.108696)
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a7300000009")
+	)
+	(pad "2" smd roundrect
+		(at 2.55 0)
+		(size 2.3 7.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.108696)
+		(uuid "5b0e3a52-6f0c-4c1e-9a55-0a730000000a")
+	)
+	(embedded_fonts no)
+)

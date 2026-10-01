@@ -3771,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL7070-XXX"
+		(property "Footprint" "Library:L_Coilank_APS0730"
 			(at 179.07 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4066,7 +4066,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr C90084"
+		(property "LCSC" "alr C468255"
 			(at 146.05 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4287,7 +4287,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "43k"
+		(property "Value" "36k"
 			(at 115.062 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,7 +4331,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr C2907038"
+		(property "LCSC" "C54531400"
 			(at 116.84 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -4590,7 +4590,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr C15849"
+		(property "LCSC" "C15849"
 			(at 113.03 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -4899,7 +4899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1nF"
+		(property "Value" "100nF"
 			(at 171.45 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5399,7 +5399,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr C16780"
+		(property "LCSC" "alr C47117451"
 			(at 118.11 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -5579,7 +5579,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr C16780"
+		(property "LCSC" "alr C47117451"
 			(at 118.11 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -5746,7 +5746,7 @@
 				)
 			)
 		)
-		(property "LCSC" "alr C16780"
+		(property "LCSC" "alr C47117451"
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
